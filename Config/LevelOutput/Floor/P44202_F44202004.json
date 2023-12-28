@@ -20,7 +20,10 @@
       "ID": 3,
       "Name": "MonsterTemp",
       "GroupGUID": "b7d2112b-cede-4066-bec7-151bcf599953",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P44202_F44202004/LevelGroup_P44202_F44202004_G3.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P44202_F44202004/LevelGroup_P44202_F44202004_G3.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 4,
@@ -56,13 +59,19 @@
       "ID": 11,
       "Name": "NPC",
       "GroupGUID": "c09ca472-fbfe-49ff-9d36-4b95893da948",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P44202_F44202004/LevelGroup_P44202_F44202004_G11.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P44202_F44202004/LevelGroup_P44202_F44202004_G11.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 12,
       "Name": "Sound_01",
       "GroupGUID": "a728fa27-76d4-4d88-a697-11e2ed2b27f5",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P44202_F44202004/LevelGroup_P44202_F44202004_G12.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P44202_F44202004/LevelGroup_P44202_F44202004_G12.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

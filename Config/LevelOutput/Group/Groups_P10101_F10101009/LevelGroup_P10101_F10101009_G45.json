@@ -12,6 +12,7 @@
     ],
     "DelayToLevelReload": true
   },
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],

@@ -109,7 +109,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300003,
@@ -127,6 +131,7 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "PerformanceHideFlags": 2,
       "TriggerValidGuest": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -149,7 +154,11 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "PerformanceHideFlags": 2,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300005,
@@ -168,7 +177,11 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "PerformanceHideFlags": 2,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300006,
@@ -187,7 +200,11 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "PerformanceHideFlags": 2,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300007,

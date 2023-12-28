@@ -3,15 +3,31 @@
   "GroupName": "RogueDLC130_Shop",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80204_F80204001_G77",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -8,
+      77
+    ],
+    "LowerUpperBounds": {
+      "x": 264,
+      "y": 265
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -8,
+      77
+    ],
+    "LowerUpperBounds": {
+      "x": 264,
+      "y": 265
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],

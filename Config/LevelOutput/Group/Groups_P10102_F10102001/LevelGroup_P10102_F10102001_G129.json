@@ -405,6 +405,7 @@
       }
     ]
   },
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -421,6 +422,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -435,7 +437,37 @@
       "RotY": 124.1476,
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_1_1.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0001.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0001"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400001
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400002
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -446,10 +478,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300004,
@@ -460,7 +497,16 @@
       "RotY": 124.1476,
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_1_1_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501171003"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -471,10 +517,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300003,
@@ -484,7 +535,32 @@
       "Name": "Prop3",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_1_2.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0002.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0002"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400003
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -495,10 +571,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300005,
@@ -508,7 +589,42 @@
       "Name": "Prop5",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_1_3.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0003.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0003"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400004
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400005
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "3",
+                "GroupInstanceID": 400006
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -519,10 +635,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300006,
@@ -532,7 +653,32 @@
       "Name": "Prop6",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_2_1.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0004.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0004"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400007
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -543,10 +689,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300007,
@@ -556,7 +707,37 @@
       "Name": "Prop7",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_2_2.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0005.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0005"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400008
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400009
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -567,10 +748,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300008,
@@ -580,7 +766,37 @@
       "Name": "Prop8",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_2_3.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0006.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0006"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400010
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400011
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -591,10 +807,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300009,
@@ -604,7 +825,37 @@
       "Name": "Prop9",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_3_1.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0009.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0009"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400012
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400013
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -615,10 +866,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300010,
@@ -628,7 +884,37 @@
       "Name": "Prop10",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_3_2.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0010.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0010"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400015
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400014
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -639,10 +925,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300011,
@@ -652,7 +943,37 @@
       "Name": "Prop11",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_3_3.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0011.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0011"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400017
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400016
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -663,10 +984,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300012,
@@ -676,7 +1002,37 @@
       "Name": "Prop12",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_3_4.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0012.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0012"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400018
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400019
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -687,10 +1043,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300013,
@@ -700,7 +1061,37 @@
       "Name": "Prop13",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_3_5.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0013.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0013"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400020
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400021
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -711,10 +1102,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300014,
@@ -724,7 +1120,37 @@
       "Name": "Prop14",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_1.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0014.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0014"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400022
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400023
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -735,10 +1161,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300015,
@@ -748,7 +1179,37 @@
       "Name": "Prop15",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_2.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0015.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0015"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400024
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400025
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -759,10 +1220,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300016,
@@ -772,7 +1238,47 @@
       "Name": "Prop16",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_3.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0016.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0016"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400026
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400027
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "3",
+                "GroupInstanceID": 400028
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "4",
+                "GroupInstanceID": 400029
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -783,10 +1289,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300017,
@@ -796,7 +1307,32 @@
       "Name": "Prop17",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_4.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0017.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0017"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400030
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -807,10 +1343,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300018,
@@ -821,6 +1362,9 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_10.json",
+      "ValueSource": {
+        "Values": []
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -831,10 +1375,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300019,
@@ -844,7 +1393,52 @@
       "Name": "Prop19",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_1.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0024.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0024"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400032
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400033
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "3",
+                "GroupInstanceID": 400034
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "4",
+                "GroupInstanceID": 400035
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "5",
+                "GroupInstanceID": 400036
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -855,10 +1449,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300020,
@@ -869,7 +1468,42 @@
       "RotY": 333.4231,
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_5.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0025.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0025"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400037
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400038
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "3",
+                "GroupInstanceID": 400039
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -880,10 +1514,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300021,
@@ -893,7 +1532,42 @@
       "Name": "Prop21",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_6.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0026.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0026"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400040
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400041
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "3",
+                "GroupInstanceID": 400042
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -904,10 +1578,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300022,
@@ -917,7 +1596,37 @@
       "Name": "Prop22",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_6_1.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0027.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0027"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400043
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400044
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -928,10 +1637,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300023,
@@ -941,7 +1655,32 @@
       "Name": "Prop23",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_6_2.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0028.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0028"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400046
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -952,10 +1691,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300024,
@@ -965,7 +1709,37 @@
       "Name": "Prop24",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_6_3.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0029.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0029"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400047
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400048
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -976,10 +1750,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300025,
@@ -989,7 +1768,37 @@
       "Name": "Prop25",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_7_1.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0030.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0030"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400049
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400050
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1000,10 +1809,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300026,
@@ -1013,7 +1827,37 @@
       "Name": "Prop26",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_7_2.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0031.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0031"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400051
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400052
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1024,10 +1868,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300027,
@@ -1037,7 +1886,37 @@
       "Name": "Prop27",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_7_3.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0032.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0032"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400053
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400054
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1048,10 +1927,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300028,
@@ -1061,7 +1945,16 @@
       "Name": "Prop28",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_3_1_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501173013"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1072,10 +1965,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300029,
@@ -1085,7 +1983,16 @@
       "Name": "Prop29",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_3_4_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501173003"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1096,10 +2003,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300030,
@@ -1109,7 +2021,16 @@
       "Name": "Prop30",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_3_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501174009"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1120,10 +2041,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300031,
@@ -1133,7 +2059,16 @@
       "Name": "Prop31",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_10_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501174026"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1144,10 +2079,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300032,
@@ -1157,7 +2097,37 @@
       "Name": "Prop32",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_2_4.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0007.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0007"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400010
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400011
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1168,10 +2138,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300033,
@@ -1181,7 +2156,37 @@
       "Name": "Prop33",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_2_5.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0008.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0008"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400010
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400011
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1192,10 +2197,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300034,
@@ -1205,7 +2215,32 @@
       "Name": "Prop34",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_5.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0018.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0018"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400030
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1216,10 +2251,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300035,
@@ -1229,7 +2269,32 @@
       "Name": "Prop35",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_6.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0019.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0019"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400030
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1240,10 +2305,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300036,
@@ -1253,7 +2323,32 @@
       "Name": "Prop36",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_7.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0020.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0020"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400030
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1264,10 +2359,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300037,
@@ -1277,7 +2377,32 @@
       "Name": "Prop37",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_8.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0021.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0021"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400030
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1288,10 +2413,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300038,
@@ -1301,7 +2431,32 @@
       "Name": "Prop38",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_4_9.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0022.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0022"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400030
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1312,10 +2467,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300039,
@@ -1325,7 +2485,52 @@
       "Name": "Prop39",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_2.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0024.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0024"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400032
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400033
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "3",
+                "GroupInstanceID": 400034
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "4",
+                "GroupInstanceID": 400035
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "5",
+                "GroupInstanceID": 400036
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1336,10 +2541,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300040,
@@ -1349,7 +2559,52 @@
       "Name": "Prop40",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_3.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0024.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0024"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400032
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400033
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "3",
+                "GroupInstanceID": 400034
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "4",
+                "GroupInstanceID": 400035
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "5",
+                "GroupInstanceID": 400036
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1360,10 +2615,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300041,
@@ -1373,7 +2633,52 @@
       "Name": "Prop41",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_4.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10102001/MunicipalChatConfig_F10102001_0024.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10102001_0024"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400032
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400033
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "3",
+                "GroupInstanceID": 400034
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "4",
+                "GroupInstanceID": 400035
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "5",
+                "GroupInstanceID": 400036
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -1384,10 +2689,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300042,
@@ -1397,7 +2707,16 @@
       "Name": "Prop42",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_1_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501175006"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1408,10 +2727,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300043,
@@ -1421,7 +2745,16 @@
       "Name": "Prop43",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_2_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501175018"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1432,10 +2765,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300044,
@@ -1445,7 +2783,16 @@
       "Name": "Prop44",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_2_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501175018"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1456,10 +2803,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300045,
@@ -1469,7 +2821,16 @@
       "Name": "Prop45",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_5_3_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501175030"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1480,10 +2841,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300046,
@@ -1493,7 +2859,16 @@
       "Name": "Prop46",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_6_1_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501176003"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1504,10 +2879,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300047,
@@ -1517,7 +2897,16 @@
       "Name": "Prop47",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10102001/Crowd_10102001_7_2_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "501177005"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -1528,10 +2917,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [

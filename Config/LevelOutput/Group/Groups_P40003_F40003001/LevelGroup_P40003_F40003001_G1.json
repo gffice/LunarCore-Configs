@@ -53,9 +53,14 @@
       "BridgeStateRotations": [],
       "AnchorGroupID": 13,
       "AnchorID": 1,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,
@@ -91,9 +96,14 @@
       "BridgeStateRotations": [],
       "AnchorGroupID": 12,
       "AnchorID": 1,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

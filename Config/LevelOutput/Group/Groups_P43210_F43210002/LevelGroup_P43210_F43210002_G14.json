@@ -82,6 +82,40 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      30,
+      49,
+      33,
+      49,
+      28,
+      55,
+      19,
+      58,
+      24,
+      58,
+      32,
+      58,
+      37,
+      58,
+      28,
+      62,
+      28,
+      67,
+      20,
+      70,
+      24,
+      70
+    ],
+    "LowerUpperBounds": {
+      "x": 3,
+      "y": 8
+    }
+  },
   "AnchorList": [
     {
       "ID": 1,

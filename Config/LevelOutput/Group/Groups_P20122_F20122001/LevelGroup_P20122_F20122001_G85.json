@@ -40,7 +40,10 @@
     "DelayToLevelReload": true
   },
   "OwnerMainMissionID": 2010906,
-  "ConflictIDList": [],
+  "ValueSource": {},
+  "ConflictIDList": [
+    85
+  ],
   "AnchorList": [
     {
       "ID": 1,
@@ -50,7 +53,10 @@
       "Name": "Anchor1",
       "RotY": 158.8203,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 2,
@@ -60,7 +66,10 @@
       "Name": "Anchor2",
       "RotY": 158.8203,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 3,
@@ -92,6 +101,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -114,6 +124,7 @@
       },
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
         201090613
@@ -138,6 +149,7 @@
       },
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
         201090614
@@ -162,6 +174,7 @@
       },
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
         201090615
@@ -183,6 +196,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -203,6 +217,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -226,6 +241,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

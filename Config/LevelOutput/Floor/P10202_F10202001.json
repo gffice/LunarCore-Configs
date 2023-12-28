@@ -23,6 +23,15 @@
       "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G73.json"
     },
     {
+      "ID": 170,
+      "Name": "ChallengeEntrance",
+      "GroupGUID": "5dfefd47-d390-4039-b08b-cf177db035bc",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G170.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
       "ID": 96,
       "Name": "Exit",
       "GroupGUID": "433b960a-dcf7-4954-8306-7e9ffbc07e2a",
@@ -56,7 +65,10 @@
       "ID": 137,
       "Name": "Exit-SuiGarden",
       "GroupGUID": "e917bb2f-d748-47d0-9258-db31b6f745c3",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G137.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G137.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 70,
@@ -723,7 +735,10 @@
       "ID": 144,
       "Name": "CommandRobotPuzzle",
       "GroupGUID": "6491b0a5-df0a-4939-8e96-aa4922a2a64f",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G144.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G144.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 150,
@@ -774,6 +789,14 @@
       "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G157.json"
     },
     {
+      "ID": 159,
+      "IsDelete": true,
+      "Name": "MainMission9920001_01",
+      "GroupGUID": "17ebc49d-0890-4def-ad67-aa73993d07a8",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G159.json",
+      "ExportTarget": "Dev"
+    },
+    {
       "ID": 160,
       "Name": "MainMission4040260_1",
       "GroupGUID": "5e496963-77bf-4227-9ea2-0e493e2aebb1",
@@ -807,25 +830,70 @@
       "ID": 166,
       "Name": "MainMission8015161_1",
       "GroupGUID": "ec8678cd-f6b1-43dc-bc33-ec2fc2f4af16",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G166.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G166.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 167,
       "Name": "MainMission8015172_02",
       "GroupGUID": "cfd65269-42db-4550-a767-36250e75351c",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G167.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G167.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 168,
       "Name": "MainMission8015172_06",
       "GroupGUID": "45204cbb-a9e9-44d8-97d8-b06c071783a3",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G168.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G168.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 169,
       "Name": "Reading",
       "GroupGUID": "574529f5-10cd-4e01-b4b0-0892f65d90a8",
       "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G169.json"
+    },
+    {
+      "ID": 171,
+      "Name": "MainMission8017101_801710102",
+      "GroupGUID": "fed5b835-636c-42f3-89c4-069ab4d037d6",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G171.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 172,
+      "Name": "MainMission8017101_801710103",
+      "GroupGUID": "4ad48ddf-d67a-4549-97c2-d7026d5c5717",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G172.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 173,
+      "Name": "MainMission8017101_801710104",
+      "GroupGUID": "848bc0f8-bb94-4e04-bdd7-9b8c75d8b22b",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G173.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 177,
+      "Name": "MainMission8017101_801710103",
+      "GroupGUID": "e1c8abc6-731b-4062-b35b-8e5bd1e0ec5c",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10202_F10202001/LevelGroup_P10202_F10202001_G177.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

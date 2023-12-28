@@ -204,14 +204,20 @@
       "IsDelete": true,
       "Name": "MainMission2010201_18",
       "GroupGUID": "e04637d2-f875-4063-9011-de6e5139bb5e",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101009/LevelGroup_P10101_F10101009_G30.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101009/LevelGroup_P10101_F10101009_G30.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 31,
       "IsDelete": true,
       "Name": "MainMission2010201_19",
       "GroupGUID": "82fecf3d-aabb-4c23-bd55-9f224d7135bc",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101009/LevelGroup_P10101_F10101009_G31.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101009/LevelGroup_P10101_F10101009_G31.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 38,

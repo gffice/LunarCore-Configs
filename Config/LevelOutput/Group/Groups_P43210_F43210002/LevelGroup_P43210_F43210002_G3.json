@@ -4,9 +4,6 @@
   "Category": "Mission",
   "LevelGraph": "Config/Level/GroupGraph/F43210002/Group_F43210002_G3.json",
   "AreaAnchorName": "LevelArea_P43210_F43210002_G3",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 2021702,
   "GroupStateList": [
@@ -62,6 +59,41 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -11,
+      41,
+      -11,
+      50,
+      -23,
+      54,
+      -11,
+      55,
+      -20,
+      58,
+      -15,
+      58,
+      -8,
+      58,
+      -1,
+      60,
+      -11,
+      62,
+      -1,
+      63,
+      -11,
+      67
+    ],
+    "LowerUpperBounds": {
+      "x": 5,
+      "y": 8
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -124,7 +156,7 @@
       "ID": 300001,
       "PosX": -20.94,
       "PosY": 7.199998,
-      "PosZ": 101.64,
+      "PosZ": 100.81,
       "Name": "Prop1",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
@@ -145,7 +177,11 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "IsClientOnly": true
+      "IsClientOnly": true,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,

@@ -4,43 +4,30 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/RogueModule/RogueModule_MainMonster.json",
   "AreaAnchorName": "LevelArea_P81231_F81231001_G46",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "ValueSource": {
     "Values": []
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -1,
-        "y": -32
-      },
-      {
-        "y": -32
-      },
-      {
-        "x": -1,
-        "y": -31
-      },
-      {
-        "y": -31
-      },
-      {
-        "x": -1,
-        "y": -30
-      },
-      {
-        "y": -30
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      0,
+      -31
     ],
     "LowerUpperBounds": {
-      "x": 119,
-      "y": 121
+      "x": 204,
+      "y": 205
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      0,
+      -31
+    ],
+    "LowerUpperBounds": {
+      "x": 204,
+      "y": 205
     }
   },
   "ConflictWhiteList": [],

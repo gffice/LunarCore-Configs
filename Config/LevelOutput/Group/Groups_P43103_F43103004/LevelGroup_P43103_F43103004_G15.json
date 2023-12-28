@@ -4,10 +4,6 @@
   "Category": "Mission",
   "LevelGraph": "Config/Level/AetherDivide/BoomRobot/BoomRobot_Controller_NoPerformance.json",
   "AreaAnchorName": "LevelArea_P43103_F43103004_G15",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 8014105,
   "GroupStateList": [
@@ -84,6 +80,47 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      86,
+      -94,
+      84,
+      -92,
+      90,
+      -91
+    ],
+    "LowerUpperBounds": {
+      "x": 204,
+      "y": 205
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      82,
+      -98,
+      86,
+      -94,
+      85,
+      -93,
+      84,
+      -92,
+      82,
+      -91,
+      90,
+      -91,
+      77,
+      -89,
+      8,
+      -9,
+      0,
+      0
+    ],
+    "LowerUpperBounds": {
+      "x": 177,
+      "y": 234
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,

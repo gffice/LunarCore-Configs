@@ -10,6 +10,21 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      0,
+      0
+    ],
+    "LowerUpperBounds": {
+      "x": 2045,
+      "y": 2046
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [

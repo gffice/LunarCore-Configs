@@ -3,15 +3,39 @@
   "GroupName": "AdvPuman",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80207_F80207001_G93",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -15,
+      23
+    ],
+    "LowerUpperBounds": {
+      "x": 2046,
+      "y": 2047
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -27,
+      21,
+      -15,
+      21,
+      -15,
+      23,
+      -13,
+      27,
+      -18,
+      33
+    ],
+    "LowerUpperBounds": {
+      "x": 2046,
+      "y": 2047
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
     {
@@ -35,7 +59,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200003,
@@ -58,7 +83,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200004,
@@ -81,7 +107,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200005,
@@ -104,7 +131,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200006,
@@ -127,7 +155,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200007,
@@ -150,7 +179,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200008,
@@ -173,7 +203,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200009,
@@ -196,7 +227,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200010,
@@ -219,7 +251,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200011,
@@ -242,7 +275,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200012,
@@ -265,7 +299,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200013,
@@ -288,7 +323,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200014,
@@ -311,7 +347,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200015,
@@ -334,7 +371,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200016,
@@ -357,7 +395,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200017,
@@ -380,7 +419,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200018,
@@ -403,7 +443,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200019,
@@ -426,7 +467,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200020,
@@ -449,7 +491,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200021,
@@ -472,7 +515,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     }
   ],
   "PropList": [
@@ -496,6 +540,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -521,6 +566,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -538,6 +584,7 @@
       "EventID": 18001,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -555,6 +602,7 @@
       "EventID": 18001,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

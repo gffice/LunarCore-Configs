@@ -32,19 +32,28 @@
       "ID": 5,
       "Name": "MainMission2021702_HH_TX_04",
       "GroupGUID": "a8d72a54-ef1f-4519-b401-e30b1e9563df",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G5.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G5.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 6,
       "Name": "MainMission2021702_HH_TX_05",
       "GroupGUID": "c79ad666-17fb-4664-a364-8195ccc1a4da",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G6.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G6.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 7,
       "Name": "MainMission2021702_HH_TX_06",
       "GroupGUID": "862b6531-89e2-4b21-96bd-3c1f86f7ad30",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G7.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G7.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 8,
@@ -80,19 +89,28 @@
       "ID": 15,
       "Name": "RecoverPoint",
       "GroupGUID": "ad54609d-6ffe-4891-8a54-3dda83fa10be",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G15.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G15.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 16,
       "Name": "Sound",
       "GroupGUID": "d8b0f8a2-37a5-4896-a529-3ac1dd4188b4",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G16.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G16.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 17,
       "Name": "Sound",
       "GroupGUID": "3fb52d75-dc53-40a5-b399-018d3ac0dee8",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G17.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210002/LevelGroup_P43210_F43210002_G17.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 18,

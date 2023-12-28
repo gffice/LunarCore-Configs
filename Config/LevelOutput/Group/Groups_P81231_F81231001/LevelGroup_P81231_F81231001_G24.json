@@ -3,16 +3,23 @@
   "GroupName": "RogueOrigin_BaseBoss",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P81231_F81231001_G24",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      37,
+      -33
+    ],
+    "LowerUpperBounds": {
+      "x": 208,
+      "y": 209
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [

@@ -3,10 +3,6 @@
   "GroupName": "FarmElement",
   "Category": "System",
   "AreaAnchorName": "LevelArea_P20223_F20223001_G20",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "SystemUnlockCondition": {
     "Conditions": [
       23017
@@ -16,28 +12,24 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -66,
-        "y": -20
-      },
-      {
-        "x": -65,
-        "y": -20
-      },
-      {
-        "x": -66,
-        "y": -19
-      },
-      {
-        "x": -65,
-        "y": -19
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -66,
+      -20
     ],
     "LowerUpperBounds": {
-      "x": 407,
-      "y": 410
+      "x": 408,
+      "y": 409
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -66,
+      -20
+    ],
+    "LowerUpperBounds": {
+      "x": 408,
+      "y": 409
     }
   },
   "ConflictWhiteList": [],

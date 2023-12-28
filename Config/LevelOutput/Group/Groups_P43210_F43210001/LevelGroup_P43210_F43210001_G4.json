@@ -25,9 +25,55 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -24,
+      -155,
+      -21,
+      -155,
+      85,
+      -134,
+      85,
+      -131,
+      -200,
+      -76,
+      -202,
+      -71,
+      -209,
+      -67,
+      -186,
+      -43,
+      -183,
+      -42,
+      162,
+      -35,
+      156,
+      -33,
+      159,
+      -30,
+      152,
+      -28,
+      -44,
+      17,
+      -159,
+      63,
+      -153,
+      63,
+      -148,
+      68,
+      126,
+      69,
+      128,
+      71
+    ],
+    "LowerUpperBounds": {
+      "x": 407,
+      "y": 428
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [

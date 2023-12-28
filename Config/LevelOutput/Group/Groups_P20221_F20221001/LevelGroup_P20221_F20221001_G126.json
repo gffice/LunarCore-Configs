@@ -61,18 +61,34 @@
       "Name": "Prop3",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Tenplate.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig_X203.json"
+            "Value": "Config/Level/MunicipalChatConfig/F20221001/MunicipalChatConfig_F20221001_0001.json"
           },
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChat01"
+            "Value": "MunicipalChatConfig_F20221001_0001"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400026
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400027
+              }
+            ]
           }
         ]
       },
@@ -100,13 +116,13 @@
       "Name": "Prop4",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Stop_Template.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "StopMunicipalChatName",
-            "Value": "MunicipalChat01"
+            "Value": "MunicipalChatConfig_F20221001_0001"
           }
         ]
       },
@@ -134,18 +150,34 @@
       "Name": "Prop1",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Tenplate.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig_X203.json"
+            "Value": "Config/Level/MunicipalChatConfig/F20221001/MunicipalChatConfig_F20221001_0002.json"
           },
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChat02"
+            "Value": "MunicipalChatConfig_F20221001_0002"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400008
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400009
+              }
+            ]
           }
         ]
       },
@@ -173,13 +205,13 @@
       "Name": "Prop2",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Stop_Template.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "StopMunicipalChatName",
-            "Value": "MunicipalChat02"
+            "Value": "MunicipalChatConfig_F20221001_0002"
           }
         ]
       },
@@ -207,18 +239,34 @@
       "Name": "Prop5",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Tenplate.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig_X203.json"
+            "Value": "Config/Level/MunicipalChatConfig/F20221001/MunicipalChatConfig_F20221001_0003.json"
           },
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChat03"
+            "Value": "MunicipalChatConfig_F20221001_0003"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400001
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400002
+              }
+            ]
           }
         ]
       },
@@ -246,13 +294,13 @@
       "Name": "Prop6",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Stop_Template.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "StopMunicipalChatName",
-            "Value": "MunicipalChat03"
+            "Value": "MunicipalChatConfig_F20221001_0003"
           }
         ]
       },

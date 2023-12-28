@@ -26,7 +26,10 @@
       "ID": 5,
       "Name": "Sound",
       "GroupGUID": "030343c5-355d-44a6-afce-68fa2b1a02be",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217002/LevelGroup_P43217_F43217002_G5.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217002/LevelGroup_P43217_F43217002_G5.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

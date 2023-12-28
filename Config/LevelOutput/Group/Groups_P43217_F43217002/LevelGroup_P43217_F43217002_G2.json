@@ -11,148 +11,64 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 1,
-        "y": -7
-      },
-      {
-        "x": 2,
-        "y": -7
-      },
-      {
-        "x": 3,
-        "y": -7
-      },
-      {
-        "x": -3,
-        "y": -6
-      },
-      {
-        "x": -2,
-        "y": -6
-      },
-      {
-        "x": 1,
-        "y": -6
-      },
-      {
-        "x": 2,
-        "y": -6
-      },
-      {
-        "x": 3,
-        "y": -6
-      },
-      {
-        "x": -3,
-        "y": -5
-      },
-      {
-        "x": -2,
-        "y": -5
-      },
-      {
-        "x": 1,
-        "y": -5
-      },
-      {
-        "x": 2,
-        "y": -5
-      },
-      {
-        "x": 3,
-        "y": -5
-      },
-      {
-        "x": -3,
-        "y": -4
-      },
-      {
-        "x": -2,
-        "y": -4
-      },
-      {
-        "x": 1,
-        "y": -4
-      },
-      {
-        "x": 2,
-        "y": -4
-      },
-      {
-        "x": 3,
-        "y": -4
-      },
-      {
-        "x": -4,
-        "y": -3
-      },
-      {
-        "x": -3,
-        "y": -3
-      },
-      {
-        "x": -2,
-        "y": -3
-      },
-      {
-        "x": 1,
-        "y": -3
-      },
-      {
-        "x": 2,
-        "y": -3
-      },
-      {
-        "x": 3,
-        "y": -3
-      },
-      {
-        "x": -4,
-        "y": -2
-      },
-      {
-        "x": -3,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
-        "x": 2,
-        "y": -2
-      },
-      {
-        "x": 3,
-        "y": -2
-      },
-      {
-        "x": -4,
-        "y": -1
-      },
-      {
-        "x": -3,
-        "y": -1
-      },
-      {
-        "x": 1,
-        "y": -1
-      },
-      {
-        "x": 2,
-        "y": -1
-      },
-      {
-        "x": 3,
-        "y": -1
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -3,
+      -6,
+      1,
+      -6,
+      2,
+      -6,
+      2,
+      -5,
+      -3,
+      -4,
+      -3,
+      -3,
+      2,
+      -3,
+      2,
+      -2,
+      -4,
+      -1,
+      1,
+      -1
     ],
     "LowerUpperBounds": {
-      "x": 23,
-      "y": 26
+      "x": 3,
+      "y": 4
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -3,
+      -6,
+      1,
+      -6,
+      2,
+      -6,
+      2,
+      -5,
+      -3,
+      -4,
+      -3,
+      -3,
+      2,
+      -3,
+      2,
+      -2,
+      -4,
+      -1,
+      -3,
+      -1,
+      1,
+      -1,
+      2,
+      -1
+    ],
+    "LowerUpperBounds": {
+      "x": 3,
+      "y": 4
     }
   },
   "ConflictWhiteList": [],
@@ -176,7 +92,10 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,
@@ -281,18 +200,29 @@
       "Name": "Prop7",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Tenplate.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig43217.json"
+            "Value": "Config/Level/MunicipalChatConfig/F43217002/MunicipalChatConfig_F43217002_0001.json"
           },
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChat01"
+            "Value": "MunicipalChatConfig_F43217002_0001"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400001
+              }
+            ]
           }
         ]
       },
@@ -311,7 +241,10 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300008,
@@ -321,18 +254,34 @@
       "Name": "Prop8",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Tenplate.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig43217.json"
+            "Value": "Config/Level/MunicipalChatConfig/F43217002/MunicipalChatConfig_F43217002_0002.json"
           },
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChat02"
+            "Value": "MunicipalChatConfig_F43217002_0002"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400002
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400003
+              }
+            ]
           }
         ]
       },
@@ -351,7 +300,10 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300009,
@@ -361,18 +313,29 @@
       "Name": "Prop9",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Tenplate.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig43217.json"
+            "Value": "Config/Level/MunicipalChatConfig/F43217002/MunicipalChatConfig_F43217002_0003.json"
           },
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChat03"
+            "Value": "MunicipalChatConfig_F43217002_0003"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400005
+              }
+            ]
           }
         ]
       },
@@ -391,7 +354,10 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300010,
@@ -401,18 +367,29 @@
       "Name": "Prop10",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Tenplate.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig43217.json"
+            "Value": "Config/Level/MunicipalChatConfig/F43217002/MunicipalChatConfig_F43217002_0004.json"
           },
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChat04"
+            "Value": "MunicipalChatConfig_F43217002_0004"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400009
+              }
+            ]
           }
         ]
       },
@@ -431,7 +408,10 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [

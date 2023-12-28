@@ -29,7 +29,10 @@
     "DelayToLevelReload": true
   },
   "OwnerMainMissionID": 2000211,
-  "ConflictIDList": [],
+  "ValueSource": {},
+  "ConflictIDList": [
+    20011
+  ],
   "AnchorList": [
     {
       "ID": 1,
@@ -61,6 +64,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -84,6 +88,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -107,6 +112,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -130,6 +136,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -153,6 +160,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -166,6 +174,7 @@
       "Name": "Prop6",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 1.0,
         "DimX": 1.0,
@@ -176,10 +185,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300007,
@@ -189,6 +203,7 @@
       "Name": "Prop7",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 2.1,
         "DimX": 1.0,
@@ -199,10 +214,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [
@@ -287,6 +307,7 @@
       "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G50/DialogueMain_F10001001_G50_N400003.json",
+        "PackList": [],
         "EnableCondition": {
           "Conditions": [
             {

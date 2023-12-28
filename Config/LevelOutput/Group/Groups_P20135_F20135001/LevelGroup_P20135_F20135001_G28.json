@@ -15,9 +15,37 @@
   },
   "IsPendedLoad": true,
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      28,
+      -12,
+      33,
+      -11
+    ],
+    "LowerUpperBounds": {
+      "x": 1,
+      "y": 2
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      28,
+      -12,
+      31,
+      -11,
+      33,
+      -11
+    ],
+    "LowerUpperBounds": {
+      "x": 1,
+      "y": 2
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -30,18 +58,34 @@
       "RotY": 18.27051,
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Tenplate.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig_M20135.json"
+            "Value": "Config/Level/MunicipalChatConfig/F20135001/MunicipalChatConfig_F20135001_0013.json"
           },
           {
             "$type": "SharedString",
             "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChat13"
+            "Value": "MunicipalChatConfig_F20135001_0013"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400001
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400002
+              }
+            ]
           }
         ]
       },
@@ -70,13 +114,13 @@
       "RotY": 18.27051,
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Stop_Template.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
       "ValueSource": {
         "Values": [
           {
             "$type": "SharedString",
             "Key": "StopMunicipalChatName",
-            "Value": "MunicipalChat13"
+            "Value": "MunicipalChatConfig_F20135001_0013"
           }
         ]
       },

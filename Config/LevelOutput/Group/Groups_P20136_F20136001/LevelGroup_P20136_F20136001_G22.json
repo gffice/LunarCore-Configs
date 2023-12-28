@@ -12,6 +12,35 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -4,
+      18,
+      -8,
+      26,
+      7,
+      29,
+      9,
+      35,
+      4,
+      41,
+      -3,
+      42,
+      8,
+      81,
+      -13,
+      82
+    ],
+    "LowerUpperBounds": {
+      "x": 108,
+      "y": 128
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -19,7 +48,7 @@
       "PosY": 9.8,
       "PosZ": 87.18,
       "Name": "Anchor1",
-      "RotX": 9.999996,
+      "RotX": 9.999994,
       "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {

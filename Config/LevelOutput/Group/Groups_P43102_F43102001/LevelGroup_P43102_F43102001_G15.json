@@ -4,10 +4,6 @@
   "Category": "Mission",
   "LevelGraph": "Config/Level/AetherDivide/BoomRobot/BoomRobot_Controller.json",
   "AreaAnchorName": "LevelArea_P43102_F43102001_G15",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 2010204,
   "GroupStateList": [
@@ -99,6 +95,41 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -4,
+      71,
+      -2,
+      71
+    ],
+    "LowerUpperBounds": {
+      "x": 262,
+      "y": 263
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      0,
+      0,
+      -2,
+      60,
+      -4,
+      65,
+      -6,
+      66,
+      -3,
+      70,
+      -4,
+      71,
+      -2,
+      71
+    ],
+    "LowerUpperBounds": {
+      "x": 252,
+      "y": 265
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -116,6 +147,7 @@
       "Name": "Anchor2",
       "RotY": 86.6552,
       "RotX": 22.07405,
+      "RotZ": 1.0E-6,
       "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {

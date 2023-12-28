@@ -24,19 +24,22 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -1,
-        "y": -1
-      },
-      {
-        "y": -1
-      },
-      {
-        "x": -1
-      },
-      {}
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -1,
+      0
+    ],
+    "LowerUpperBounds": {
+      "x": 19,
+      "y": 20
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -4,
+      -2,
+      -1,
+      0
     ],
     "LowerUpperBounds": {
       "x": 18,

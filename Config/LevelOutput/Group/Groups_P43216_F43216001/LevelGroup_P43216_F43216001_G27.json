@@ -4,19 +4,25 @@
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P43216_F43216001_G27",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8015158,
   "ValueSource": {
     "Values": []
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      1,
+      11
+    ],
+    "LowerUpperBounds": {
+      "x": 5,
+      "y": 6
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [],
@@ -73,9 +79,9 @@
       "PosZ": 26.261,
       "IsDelete": true,
       "Name": "Prop2",
-      "RotY": 90.80077,
+      "RotY": 90.80045,
       "RotX": 270.6218,
-      "RotZ": 7.87E-4,
+      "RotZ": 0.001101,
       "PropID": 102064,
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},

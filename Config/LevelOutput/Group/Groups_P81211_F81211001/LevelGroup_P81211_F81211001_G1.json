@@ -4,11 +4,14 @@
   "AreaAnchorName": "LevelArea_P81211_F81211001_G1",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
       "PosZ": 20.0,
-      "Name": "PlayerStart"
+      "Name": "PlayerStart",
+      "MapLayerID": 1
     }
   ],
   "MonsterList": [],

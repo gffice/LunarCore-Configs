@@ -4,15 +4,37 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/RogueDLCModule_RestRoom.json",
   "AreaAnchorName": "LevelArea_P80202_F80202001_G43",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      50,
+      44,
+      50,
+      45,
+      46,
+      47,
+      46,
+      48,
+      50,
+      51,
+      50,
+      52,
+      50,
+      53
+    ],
+    "LowerUpperBounds": {
+      "x": 296,
+      "y": 297
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -49,6 +71,7 @@
       "State": "CustomState01",
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -70,6 +93,7 @@
       "EventID": 80210001,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -88,6 +112,7 @@
       "EventID": 80210001,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -106,6 +131,7 @@
       "EventID": 80210001,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -124,6 +150,7 @@
       "EventID": 80210001,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -142,6 +169,7 @@
       "EventID": 80210001,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -160,6 +188,7 @@
       "EventID": 80210001,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

@@ -4,14 +4,45 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/RogueDLCModule_AdvDesRoom.json",
   "AreaAnchorName": "LevelArea_P80200_F80200007_G3",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
-  "GroupStateList": [],
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "SharedString",
+        "Key": "HiddenChest",
+        "Value": "3,300005"
+      }
+    ]
+  },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -6,
+      -37,
+      -4,
+      -37,
+      -4,
+      -35,
+      -42,
+      -7,
+      -40,
+      -7,
+      -38,
+      -7,
+      -40,
+      -6
+    ],
+    "LowerUpperBounds": {
+      "x": 1,
+      "y": 12
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -55,12 +86,17 @@
       "State": "CustomState01",
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "Dialog": {
         "PackList": []
+      },
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
       }
     },
     {
@@ -85,10 +121,15 @@
       "EventID": 81311903,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300003,
@@ -112,10 +153,15 @@
       "EventID": 81311904,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300004,
@@ -139,10 +185,15 @@
       "EventID": 81311905,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300006,
@@ -154,6 +205,7 @@
       "PropID": 1001,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Rogue/InitLevelGraph_Prop_RogueLobby_PickMachine_01.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -165,12 +217,17 @@
       "EventID": 10000,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [
         13
-      ]
+      ],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300007,
@@ -181,13 +238,19 @@
       "PropID": 913,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/Maze_RogueDLC_AdvAreaReady.json",
+      "ValueSource": {},
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300008,
@@ -199,13 +262,51 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/Maze_RogueDLC_AdvTransform.json",
+      "ValueSource": {},
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": -10.2,
+      "PosY": 23.87267,
+      "PosZ": -73.87,
+      "Name": "Prop5",
+      "RotY": 0.036044,
+      "PropID": 60204,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_TreasureBox_01.json",
+      "ValueSource": {
+        "Values": []
+      },
+      "Trigger": {
+        "Radius": 2.0,
+        "PointList": []
+      },
+      "CampID": 4,
+      "State": "Hidden",
+      "EventID": 81311903,
+      "MapLayerID": 1,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

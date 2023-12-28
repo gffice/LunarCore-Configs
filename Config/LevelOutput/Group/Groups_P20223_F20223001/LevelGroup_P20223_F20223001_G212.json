@@ -10,116 +10,46 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 37,
-        "y": 9
-      },
-      {
-        "x": 38,
-        "y": 9
-      },
-      {
-        "x": 39,
-        "y": 9
-      },
-      {
-        "x": 40,
-        "y": 9
-      },
-      {
-        "x": 41,
-        "y": 9
-      },
-      {
-        "x": 42,
-        "y": 9
-      },
-      {
-        "x": 43,
-        "y": 9
-      },
-      {
-        "x": 37,
-        "y": 10
-      },
-      {
-        "x": 38,
-        "y": 10
-      },
-      {
-        "x": 39,
-        "y": 10
-      },
-      {
-        "x": 40,
-        "y": 10
-      },
-      {
-        "x": 41,
-        "y": 10
-      },
-      {
-        "x": 42,
-        "y": 10
-      },
-      {
-        "x": 43,
-        "y": 10
-      },
-      {
-        "x": 37,
-        "y": 11
-      },
-      {
-        "x": 38,
-        "y": 11
-      },
-      {
-        "x": 39,
-        "y": 11
-      },
-      {
-        "x": 40,
-        "y": 11
-      },
-      {
-        "x": 41,
-        "y": 11
-      },
-      {
-        "x": 42,
-        "y": 11
-      },
-      {
-        "x": 41,
-        "y": 12
-      },
-      {
-        "x": 42,
-        "y": 12
-      },
-      {
-        "x": 43,
-        "y": 12
-      },
-      {
-        "x": 41,
-        "y": 13
-      },
-      {
-        "x": 42,
-        "y": 13
-      },
-      {
-        "x": 43,
-        "y": 13
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      38,
+      10,
+      41,
+      10,
+      42,
+      10,
+      43,
+      10,
+      38,
+      11,
+      42,
+      12
     ],
     "LowerUpperBounds": {
-      "x": 406,
-      "y": 409
+      "x": -6,
+      "y": -5
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      38,
+      10,
+      41,
+      10,
+      42,
+      10,
+      43,
+      10,
+      38,
+      11,
+      42,
+      11,
+      42,
+      12
+    ],
+    "LowerUpperBounds": {
+      "x": -6,
+      "y": -5
     }
   },
   "ConflictWhiteList": [],
@@ -144,7 +74,107 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 84.98,
+      "PosY": -10.5399,
+      "PosZ": 22.95,
+      "Name": "Prop2",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20223001/MunicipalChatConfig_F20223001_0021.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20223001_0021"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400007
+              },
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400008
+              }
+            ]
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 10.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "PointList": []
+      },
+      "CampID": 4,
+      "MapLayerID": 1,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 84.98,
+      "PosY": -10.5399,
+      "PosZ": 22.95,
+      "Name": "Prop3",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "StopMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20223001_0021"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 10.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "PointList": []
+      },
+      "CampID": 4,
+      "MapLayerID": 1,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [
@@ -209,7 +239,7 @@
         "Hash": 388784792
       },
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 312170246,
+      "DefaultIdleFreeStyleMotionID": 312170000,
       "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20223/F20223001_G156/DialogueMain_F20223001_G156_N400002.json",
@@ -344,11 +374,11 @@
     },
     {
       "ID": 400007,
-      "PosX": 86.21,
+      "PosX": 86.316,
       "PosY": -10.5399,
-      "PosZ": 20.156,
+      "PosZ": 20.016,
       "Name": "NPC7",
-      "RotY": 321.0734,
+      "RotY": 153.1837,
       "NPCID": 12232,
       "ValueSource": {},
       "DialogueGroups": [],
@@ -368,11 +398,11 @@
     },
     {
       "ID": 400008,
-      "PosX": 80.5,
+      "PosX": 86.915,
       "PosY": -10.53469,
-      "PosZ": 19.96,
+      "PosZ": 20.068,
       "Name": "NPC8",
-      "RotY": 1.959898,
+      "RotY": 192.6353,
       "NPCID": 12126,
       "ValueSource": {},
       "DialogueGroups": [],

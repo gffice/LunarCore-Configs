@@ -9,36 +9,30 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -264,
-        "y": 1
-      },
-      {
-        "x": -263,
-        "y": 1
-      },
-      {
-        "x": -264,
-        "y": 2
-      },
-      {
-        "x": -263,
-        "y": 2
-      },
-      {
-        "x": -264,
-        "y": 3
-      },
-      {
-        "x": -263,
-        "y": 3
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -264,
+      2,
+      -263,
+      2
     ],
     "LowerUpperBounds": {
-      "x": 78,
-      "y": 81
+      "x": 112,
+      "y": 113
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -262,
+      1,
+      -264,
+      2,
+      -263,
+      2
+    ],
+    "LowerUpperBounds": {
+      "x": 112,
+      "y": 113
     }
   },
   "ConflictWhiteList": [],
@@ -82,10 +76,11 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "BreakLoop",
+      "DefaultLookAtMode": "Closed",
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
       "DefaultIdleFreeStyleMotionID": 200040209,
       "InitialHiddenNodeList": [],
       "SpawnConfig": {

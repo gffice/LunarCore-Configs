@@ -21,6 +21,7 @@
       }
     ]
   },
+  "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [
     {
@@ -32,8 +33,10 @@
       "RotY": 200.0,
       "NPCMonsterID": 8013010,
       "AIConfig": {
+        "PathwayList": [],
         "SlaveConfigList": []
       },
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -43,6 +46,9 @@
       "MapLayerID": 3,
       "BoardShowList": [
         4
+      ],
+      "TagList": [
+        "ResistInstantKill"
       ]
     }
   ],
@@ -70,6 +76,7 @@
       "State": "ChestLocked",
       "MapLayerID": 3,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "ChestID": 20002632,
       "DialogueGroups": [],
@@ -94,6 +101,7 @@
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -121,6 +129,7 @@
       "CampID": 4,
       "MapLayerID": 3,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10027,
       "DialogueGroups": [],

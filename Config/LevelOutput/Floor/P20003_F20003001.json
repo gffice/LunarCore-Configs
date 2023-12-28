@@ -525,6 +525,87 @@
       "Name": "NPC_Puman",
       "GroupGUID": "89a20c56-e7e0-4bfb-a6ed-bfa4151ef7ab",
       "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G136.json"
+    },
+    {
+      "ID": 138,
+      "Name": "MainMission2001001_06",
+      "GroupGUID": "58cdc464-6850-45b0-8b4d-3374f31ee197",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G138.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 139,
+      "Name": "MainMission2001001_04",
+      "GroupGUID": "7cbaed25-7b9b-4a2d-a945-5529d69872d0",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G139.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 140,
+      "Name": "MainMission2001001_08",
+      "GroupGUID": "77753615-8c43-4eb3-9d47-72902d673ea7",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G140.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 141,
+      "Name": "MainMission2001001_0802",
+      "GroupGUID": "07432164-c111-4c59-bd7c-aa5b02a5f0e0",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G141.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 142,
+      "Name": "MainMission2000901_01",
+      "GroupGUID": "f9a4e2ec-6cd0-498b-a4c4-46f1c00eb6e6",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G142.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 143,
+      "Name": "MainMission2001001_39",
+      "GroupGUID": "cf6bc811-b391-4657-a2fb-d47c28d2c7e8",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G143.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 144,
+      "Name": "MainMission2001001_10",
+      "GroupGUID": "29bf89d9-5008-49a9-9adc-fcd89ce239ef",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G144.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 146,
+      "Name": "MainMission8016301_02",
+      "GroupGUID": "cd7e9290-0420-4069-b40c-3f11ed472d68",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G146.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 148,
+      "Name": "MainMission2000901_02",
+      "GroupGUID": "b55f5b7a-f52e-4477-8d02-22f8ebbab7b3",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G148.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

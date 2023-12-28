@@ -32,13 +32,19 @@
       "ID": 5,
       "Name": "MainMission8015156_801515606",
       "GroupGUID": "ea153cfe-51b5-4246-95df-d082f56244a0",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G5.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G5.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 6,
       "Name": "MainMission8015156_801515607",
       "GroupGUID": "319756cf-d0f6-4121-b387-b345bfc94422",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G6.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G6.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 7,
@@ -50,25 +56,37 @@
       "ID": 8,
       "Name": "Sound",
       "GroupGUID": "ea0afd6c-3889-48b4-9141-3ad40e19b1d0",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G8.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G8.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 9,
       "Name": "Checkpoint",
       "GroupGUID": "a81a9a20-ec56-4bb0-acd5-a2cea5183695",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G9.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G9.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 10,
       "Name": "MainMission8015156_Qingque",
       "GroupGUID": "7b23f76e-c526-4330-b54b-42446051f7a1",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G10.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G10.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 11,
       "Name": "MainMission8015156_switch",
       "GroupGUID": "ea82fd5b-811e-4ed1-8164-33d13c4d3c48",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G11.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43217_F43217001/LevelGroup_P43217_F43217001_G11.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

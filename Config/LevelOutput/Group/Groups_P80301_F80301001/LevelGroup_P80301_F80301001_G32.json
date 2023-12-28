@@ -4,15 +4,36 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue140/Rogue140Module_Level1_BossRoom.json",
   "AreaAnchorName": "LevelArea_P80301_F80301001_G32",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -39,
+      -32,
+      -40,
+      -31
+    ],
+    "LowerUpperBounds": {
+      "x": 89,
+      "y": 90
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -39,
+      -32,
+      -40,
+      -31
+    ],
+    "LowerUpperBounds": {
+      "x": 89,
+      "y": 90
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
     {
@@ -35,7 +56,7 @@
         "ID": 1
       },
       "EventID": 99999011,
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -63,7 +84,7 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -82,7 +103,7 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -115,7 +136,7 @@
       },
       "CampID": 4,
       "State": "TriggerDisable",
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -137,7 +158,7 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

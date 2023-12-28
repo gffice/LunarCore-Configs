@@ -3,10 +3,30 @@
   "GroupName": "BlockLines",
   "AreaAnchorName": "LevelArea_P44202_F44202002_G7",
   "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Operation": "And"
+  },
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      34,
+      -16,
+      16,
+      -12
+    ],
+    "LowerUpperBounds": {
+      "x": 408,
+      "y": 413
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [

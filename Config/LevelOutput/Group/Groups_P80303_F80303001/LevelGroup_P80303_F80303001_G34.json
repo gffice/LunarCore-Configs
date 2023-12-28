@@ -3,14 +3,37 @@
   "GroupName": "Rogue140_BaseCommon",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80303_F80303001_G34",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -24,
+      -100,
+      -20,
+      -100,
+      -19,
+      -100,
+      -17,
+      -100,
+      -16,
+      -100,
+      -18,
+      -97,
+      -17,
+      -97
+    ],
+    "LowerUpperBounds": {
+      "x": 58,
+      "y": 59
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,

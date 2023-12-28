@@ -4,15 +4,31 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/RogueDLCModule_EventRoom.json",
   "AreaAnchorName": "LevelArea_P80207_F80207001_G34",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -5,
+      -42
+    ],
+    "LowerUpperBounds": {
+      "x": 2047,
+      "y": 2048
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -5,
+      -42
+    ],
+    "LowerUpperBounds": {
+      "x": 2047,
+      "y": 2048
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],

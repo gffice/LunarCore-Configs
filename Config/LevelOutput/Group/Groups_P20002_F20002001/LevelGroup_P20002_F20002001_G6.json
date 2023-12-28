@@ -6,6 +6,8 @@
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "GroupRefreshID": 1,
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -24,13 +26,19 @@
       "PropID": 100013,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_EnergyBridge_01.json",
+      "ValueSource": {},
       "CampID": 4,
       "MapLayerID": 3,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,
@@ -69,16 +77,22 @@
         "Offset": {
           "x": -0.45,
           "z": 0.89
-        }
+        },
+        "PointList": []
       },
       "CampID": 4,
       "State": "Locked",
       "MapLayerID": 3,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300006,
@@ -95,13 +109,19 @@
       "PropID": 100013,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_EnergyBridge_01.json",
+      "ValueSource": {},
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300009,
@@ -135,10 +155,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300010,
@@ -155,14 +180,20 @@
       "PropID": 100011,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_EnergyBridge_01.json",
+      "ValueSource": {},
       "CampID": 4,
       "State": "Open",
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300011,
@@ -178,13 +209,19 @@
       "PropID": 100012,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_EnergyBridge_01.json",
+      "ValueSource": {},
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300013,
@@ -201,14 +238,20 @@
       "PropID": 100011,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_EnergyBridge_01.json",
+      "ValueSource": {},
       "CampID": 4,
       "State": "Open",
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300014,
@@ -252,15 +295,20 @@
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300012,
       "PosX": -171.678,
-      "PosY": -4.459,
+      "PosY": -4.388881,
       "PosZ": -85.976,
       "Name": "Prop12",
       "RotY": 180.0,
@@ -314,10 +362,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300015,
@@ -376,10 +429,15 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300016,
@@ -437,10 +495,15 @@
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

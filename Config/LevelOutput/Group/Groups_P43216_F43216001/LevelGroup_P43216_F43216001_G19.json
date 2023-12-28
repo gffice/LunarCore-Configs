@@ -11,9 +11,33 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      12,
+      -16,
+      13,
+      -15,
+      12,
+      -11,
+      -2,
+      -4,
+      9,
+      -3,
+      14,
+      0,
+      -3,
+      2,
+      3,
+      2
+    ],
+    "LowerUpperBounds": {
+      "x": 3,
+      "y": 6
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [

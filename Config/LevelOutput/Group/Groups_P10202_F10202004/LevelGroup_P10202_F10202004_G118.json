@@ -5,12 +5,30 @@
   "LevelGraph": "Config/Level/GroupGraph/F10202004/Group_F10202004_G118.json",
   "AreaAnchorName": "LevelArea_P10202_F10202004_G118",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8003243,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -21,
+      -20
+    ],
+    "LowerUpperBounds": {
+      "x": 21,
+      "y": 22
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -21,
+      -20
+    ],
+    "LowerUpperBounds": {
+      "x": 21,
+      "y": 22
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -30,7 +48,10 @@
       "RotY": 289.0,
       "RotX": 9.999996,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],

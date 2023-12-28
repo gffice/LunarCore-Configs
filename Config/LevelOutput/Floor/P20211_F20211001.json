@@ -871,31 +871,46 @@
       "ID": 211,
       "Name": "MainMission8015104_4",
       "GroupGUID": "e788bbfb-bd56-477b-b374-a963bb5db943",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G211.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G211.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 212,
       "Name": "MainMission8015104_6",
       "GroupGUID": "764aa5a5-1047-4918-8c1d-bd47d5d0d970",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G212.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G212.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 215,
       "Name": "MainMission8015173_03",
       "GroupGUID": "7f3f4a64-3705-45e9-952f-3fbec2eb656c",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G215.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G215.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 216,
       "Name": "MainMission8015173_04",
       "GroupGUID": "5854270e-3d9b-4fde-bd8b-6547f197470e",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G216.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G216.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 232,
       "Name": "MainMission8015104_New Group",
       "GroupGUID": "9fd93cae-18c1-4100-b214-b9460590a300",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G232.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20211_F20211001/LevelGroup_P20211_F20211001_G232.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

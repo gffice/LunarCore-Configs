@@ -4,15 +4,41 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/RogueDLCModule_RestRoom.json",
   "AreaAnchorName": "LevelArea_P80201_F80201001_G13",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      17,
+      -18
+    ],
+    "LowerUpperBounds": {
+      "x": 92,
+      "y": 93
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      13,
+      -20,
+      14,
+      -20,
+      13,
+      -19,
+      16,
+      -19,
+      17,
+      -18,
+      15,
+      -17
+    ],
+    "LowerUpperBounds": {
+      "x": 92,
+      "y": 93
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -35,8 +61,9 @@
       },
       "CampID": 4,
       "EventID": 10000,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -56,8 +83,9 @@
       "InitLevelGraph": "Config/Level/Props/Rogue/InitLevelGraph_Prop_RogueLobby_ReviveMachine_01.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -76,8 +104,9 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 18001,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -94,8 +123,9 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 18002,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -112,8 +142,9 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 18002,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -133,7 +164,7 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],

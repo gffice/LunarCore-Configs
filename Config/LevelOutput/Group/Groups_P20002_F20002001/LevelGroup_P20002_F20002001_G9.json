@@ -11,6 +11,8 @@
       }
     ]
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -22,20 +24,51 @@
       "Name": "Prop1",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/20002001/Crowd_20002001_3_2.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20002001/MunicipalChatConfig_F20002001_0007.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20002001_0007"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400010
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,
@@ -45,20 +78,51 @@
       "Name": "Prop2",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/20002001/Crowd_20002001_3_3.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20002001/MunicipalChatConfig_F20002001_0008.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20002001_0008"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400003
+              }
+            ]
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 3,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [
@@ -79,7 +143,8 @@
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010295,
-      "BornType": "Permanent"
+      "BornType": "Permanent",
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400002,
@@ -101,7 +166,8 @@
       },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010231,
-      "BornType": "Permanent"
+      "BornType": "Permanent",
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400004,
@@ -123,7 +189,8 @@
       },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010292,
-      "BornType": "Permanent"
+      "BornType": "Permanent",
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400005,
@@ -142,7 +209,8 @@
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010291,
-      "BornType": "Permanent"
+      "BornType": "Permanent",
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400008,
@@ -161,7 +229,8 @@
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020210,
-      "BornType": "Permanent"
+      "BornType": "Permanent",
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400010,
@@ -181,7 +250,8 @@
       ],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010231,
-      "BornType": "Permanent"
+      "BornType": "Permanent",
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400003,
@@ -199,7 +269,8 @@
       ],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
-      "BornType": "Permanent"
+      "BornType": "Permanent",
+      "InitialHiddenNodeList": []
     }
   ]
 }

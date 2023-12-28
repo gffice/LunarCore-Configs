@@ -4,10 +4,6 @@
   "Category": "Mission",
   "LevelGraph": "Config/Level/AetherDivide/BoomRobot/BoomRobot_Controller.json",
   "AreaAnchorName": "LevelArea_P43102_F43102001_G14",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 2010204,
   "GroupStateList": [
@@ -99,6 +95,37 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -18,
+      51
+    ],
+    "LowerUpperBounds": {
+      "x": 262,
+      "y": 263
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      0,
+      0,
+      -18,
+      50,
+      -18,
+      51,
+      -19,
+      53,
+      -19,
+      54,
+      -23,
+      58
+    ],
+    "LowerUpperBounds": {
+      "x": 258,
+      "y": 265
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,

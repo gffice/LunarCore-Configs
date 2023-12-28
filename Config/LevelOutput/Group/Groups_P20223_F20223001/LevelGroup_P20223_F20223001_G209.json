@@ -58,33 +58,32 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -1,
-        "y": -23
-      },
-      {
-        "y": -23
-      },
-      {
-        "x": -1,
-        "y": -22
-      },
-      {
-        "y": -22
-      },
-      {
-        "x": -1,
-        "y": -21
-      },
-      {
-        "y": -21
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -1,
+      -22
     ],
     "LowerUpperBounds": {
       "x": 404,
-      "y": 406
+      "y": 405
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      86,
+      -38,
+      -1,
+      -22,
+      5,
+      -9,
+      4,
+      -3,
+      0,
+      0
+    ],
+    "LowerUpperBounds": {
+      "x": 404,
+      "y": 424
     }
   },
   "ConflictWhiteList": [],

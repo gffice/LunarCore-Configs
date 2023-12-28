@@ -3,14 +3,25 @@
   "GroupName": "Rogue140_Area",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80301_F80301001_G45",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -32,
+      -30
+    ],
+    "LowerUpperBounds": {
+      "x": 90,
+      "y": 91
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -24,7 +35,7 @@
       "PropID": 1027,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

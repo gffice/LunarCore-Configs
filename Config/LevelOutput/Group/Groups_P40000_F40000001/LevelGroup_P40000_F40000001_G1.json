@@ -4,6 +4,8 @@
   "AreaAnchorName": "LevelArea_P40000_F40000001_G1",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -27,11 +29,13 @@
       "PropID": 3002,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Raid/InitLevelGraph_Prop_Raid_CheckPoint_01.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 5.0,
         "Offset": {
           "y": 1.0
-        }
+        },
+        "PointList": []
       },
       "CampID": 4,
       "State": "CheckPointDisable",
@@ -42,15 +46,22 @@
           "Offset": {
             "y": 1.0
           },
+          "PointList": [],
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 1,
-      "AnchorID": 2,
+      "AnchorID": 1,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

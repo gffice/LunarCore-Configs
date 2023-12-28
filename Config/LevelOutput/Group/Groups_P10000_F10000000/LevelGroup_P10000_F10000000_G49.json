@@ -102,7 +102,11 @@
         "LevelGraph": "Config/Level/TrainVisitor/Dialogue_F10000000_G49.json",
         "PackList": []
       },
-      "OverrideBehaviorType": "TrainVisitor"
+      "OverrideBehaviorType": "TrainVisitor",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400002,
@@ -161,7 +165,11 @@
         "LevelGraph": "Config/Level/TrainVisitor/Dialogue_F10000000_G49.json",
         "PackList": []
       },
-      "OverrideBehaviorType": "TrainVisitor"
+      "OverrideBehaviorType": "TrainVisitor",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400004,
@@ -250,7 +258,11 @@
         "LevelGraph": "Config/Level/TrainVisitor/Dialogue_F10000000_G49.json",
         "PackList": []
       },
-      "OverrideBehaviorType": "TrainVisitor"
+      "OverrideBehaviorType": "TrainVisitor",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400007,
@@ -276,7 +288,11 @@
         "LevelGraph": "Config/Level/TrainVisitor/Dialogue_F10000000_G49.json",
         "PackList": []
       },
-      "OverrideBehaviorType": "TrainVisitor"
+      "OverrideBehaviorType": "TrainVisitor",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400008,
@@ -302,7 +318,11 @@
         "LevelGraph": "Config/Level/TrainVisitor/Dialogue_F10000000_G49.json",
         "PackList": []
       },
-      "OverrideBehaviorType": "TrainVisitor"
+      "OverrideBehaviorType": "TrainVisitor",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400009,
@@ -328,7 +348,11 @@
         "LevelGraph": "Config/Level/TrainVisitor/Dialogue_F10000000_G49.json",
         "PackList": []
       },
-      "OverrideBehaviorType": "TrainVisitor"
+      "OverrideBehaviorType": "TrainVisitor",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400010,
@@ -385,7 +409,8 @@
       "OverrideBehaviorType": "TrainVisitor",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400012,
@@ -415,7 +440,8 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400013,
@@ -445,7 +471,8 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400014,
@@ -819,6 +846,58 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400026,
+      "PosZ": 20.0,
+      "Name": "NPC26",
+      "NPCID": 1306,
+      "LevelGraph": "Config/Level/Mission/TrainVisitor/TrainVisitor_Bubble.json",
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 1,
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 313030000,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/TrainVisitor/Dialogue_F10000000_G49.json",
+        "PackList": []
+      },
+      "OverrideBehaviorType": "TrainVisitor",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400027,
+      "PosZ": 20.0,
+      "Name": "NPC27",
+      "NPCID": 1305,
+      "LevelGraph": "Config/Level/Mission/TrainVisitor/TrainVisitor_Bubble.json",
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 1,
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 313050000,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/TrainVisitor/Dialogue_F10000000_G49.json",
+        "PackList": []
+      },
+      "OverrideBehaviorType": "TrainVisitor",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
       },
       "TriggerValidGuest": {}
     }

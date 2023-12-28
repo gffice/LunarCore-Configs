@@ -3,14 +3,27 @@
   "GroupName": "RogueDLC130_Area",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80201_F80201001_G68",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -33,
+      -39,
+      -33,
+      -35
+    ],
+    "LowerUpperBounds": {
+      "x": 100,
+      "y": 101
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -24,8 +37,9 @@
       "PropID": 1027,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
+      "MapLayerID": 3,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -41,8 +55,9 @@
       "PropID": 1027,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
+      "MapLayerID": 3,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

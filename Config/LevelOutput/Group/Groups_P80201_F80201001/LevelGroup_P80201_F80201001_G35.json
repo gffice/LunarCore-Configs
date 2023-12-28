@@ -4,15 +4,33 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/RogueDLCModule_RestRoom.json",
   "AreaAnchorName": "LevelArea_P80201_F80201001_G35",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -64,
+      -51
+    ],
+    "LowerUpperBounds": {
+      "x": 92,
+      "y": 93
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -64,
+      -51,
+      -67,
+      -50
+    ],
+    "LowerUpperBounds": {
+      "x": 92,
+      "y": 93
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -28,8 +46,9 @@
       "InitLevelGraph": "Config/Level/Props/Rogue/InitLevelGraph_Prop_RogueLobby_ReviveMachine_01.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -50,7 +69,7 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],

@@ -3,56 +3,29 @@
   "GroupName": "MainMission8002105_monster",
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P20122_F20122001_G117",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 8002105,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -24,
-        "y": 80
-      },
-      {
-        "x": -23,
-        "y": 80
-      },
-      {
-        "x": -22,
-        "y": 80
-      },
-      {
-        "x": -24,
-        "y": 81
-      },
-      {
-        "x": -23,
-        "y": 81
-      },
-      {
-        "x": -22,
-        "y": 81
-      },
-      {
-        "x": -24,
-        "y": 82
-      },
-      {
-        "x": -23,
-        "y": 82
-      },
-      {
-        "x": -22,
-        "y": 82
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -23,
+      81
     ],
     "LowerUpperBounds": {
-      "x": 269,
-      "y": 272
+      "x": 270,
+      "y": 271
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -23,
+      81
+    ],
+    "LowerUpperBounds": {
+      "x": 270,
+      "y": 271
     }
   },
   "ConflictWhiteList": [],

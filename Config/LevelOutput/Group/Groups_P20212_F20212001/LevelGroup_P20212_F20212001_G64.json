@@ -5,6 +5,7 @@
   "AreaAnchorName": "LevelArea_P20212_F20212001_G64",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -19,6 +20,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -28,6 +30,9 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
+      ],
+      "TagList": [
+        "ResistInstantKill"
       ]
     }
   ],
@@ -62,6 +67,7 @@
       "State": "ChestLocked",
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "ChestID": 20212632,
       "DialogueGroups": [],
@@ -84,7 +90,9 @@
         ]
       },
       "CampID": 4,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -112,6 +120,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10033,
       "DialogueGroups": [],

@@ -8,14 +8,6 @@
     "Conditions": [
       {
         "Type": "SubMission",
-        "ID": 801510206
-      },
-      {
-        "Type": "SubMission",
-        "ID": 801510207
-      },
-      {
-        "Type": "SubMission",
         "ID": 801510208
       },
       {
@@ -43,6 +35,7 @@
     ]
   },
   "OwnerMainMissionID": 8015102,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -89,7 +82,7 @@
       "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 312080230,
+      "DefaultIdleFreeStyleMotionID": 312080231,
       "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20221/F20221001_G189/DialogueMain_F20221001_G189_N400001.json",

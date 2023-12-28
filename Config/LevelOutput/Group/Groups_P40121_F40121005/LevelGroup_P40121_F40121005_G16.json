@@ -1,9 +1,11 @@
 {
   "GroupGUID": "fc781b96-f1be-4886-9380-f90c37132c15",
   "GroupName": "Saves",
-  "AreaAnchorName": "LevelArea_P40121_F40121001_G16",
+  "AreaAnchorName": "LevelArea_P40121_F40121005_G16",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -27,6 +29,7 @@
       "PropID": 3002,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Raid/InitLevelGraph_Prop_Raid_CheckPoint_01.json",
+      "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
       "MapLayerID": 1,
@@ -36,15 +39,22 @@
           "Offset": {
             "y": 1.0
           },
+          "PointList": [],
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 16,
       "AnchorID": 1,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,
@@ -54,12 +64,20 @@
       "Name": "Prop2",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

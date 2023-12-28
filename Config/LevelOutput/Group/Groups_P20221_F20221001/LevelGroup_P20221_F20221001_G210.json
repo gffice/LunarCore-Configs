@@ -9,124 +9,43 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 1,
-        "y": 2
-      },
-      {
-        "x": 2,
-        "y": 2
-      },
-      {
-        "x": 1,
-        "y": 3
-      },
-      {
-        "x": 2,
-        "y": 3
-      },
-      {
-        "x": -2,
-        "y": 16
-      },
-      {
-        "x": -1,
-        "y": 16
-      },
-      {
-        "y": 16
-      },
-      {
-        "x": -2,
-        "y": 17
-      },
-      {
-        "x": -1,
-        "y": 17
-      },
-      {
-        "y": 17
-      },
-      {
-        "x": -2,
-        "y": 18
-      },
-      {
-        "x": -1,
-        "y": 18
-      },
-      {
-        "y": 18
-      },
-      {
-        "x": 3,
-        "y": 22
-      },
-      {
-        "x": 4,
-        "y": 22
-      },
-      {
-        "x": 3,
-        "y": 23
-      },
-      {
-        "x": 4,
-        "y": 23
-      },
-      {
-        "x": 1,
-        "y": 30
-      },
-      {
-        "x": 2,
-        "y": 30
-      },
-      {
-        "x": -4,
-        "y": 31
-      },
-      {
-        "x": -3,
-        "y": 31
-      },
-      {
-        "x": -2,
-        "y": 31
-      },
-      {
-        "x": 1,
-        "y": 31
-      },
-      {
-        "x": 2,
-        "y": 31
-      },
-      {
-        "x": -4,
-        "y": 32
-      },
-      {
-        "x": -3,
-        "y": 32
-      },
-      {
-        "x": -2,
-        "y": 32
-      },
-      {
-        "x": -4,
-        "y": 33
-      },
-      {
-        "x": -3,
-        "y": 33
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      1,
+      2,
+      -1,
+      17,
+      3,
+      22,
+      1,
+      30,
+      -3,
+      31,
+      -3,
+      32
     ],
     "LowerUpperBounds": {
-      "x": 74,
+      "x": 75,
+      "y": 80
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      1,
+      2,
+      -1,
+      17,
+      3,
+      22,
+      1,
+      30,
+      -3,
+      31,
+      -3,
+      32
+    ],
+    "LowerUpperBounds": {
+      "x": 75,
       "y": 80
     }
   },
@@ -240,7 +159,6 @@
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900110000,
-      "IsInitialHidden": true,
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}

@@ -9,35 +9,28 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 12,
-        "y": -4
-      },
-      {
-        "x": 13,
-        "y": -4
-      },
-      {
-        "x": 14,
-        "y": -4
-      },
-      {
-        "x": 12,
-        "y": -3
-      },
-      {
-        "x": 13,
-        "y": -3
-      },
-      {
-        "x": 14,
-        "y": -3
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      13,
+      -4,
+      13,
+      -3
     ],
     "LowerUpperBounds": {
-      "y": 2
+      "x": 2,
+      "y": 3
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      13,
+      -4,
+      13,
+      -3
+    ],
+    "LowerUpperBounds": {
+      "x": 2,
+      "y": 3
     }
   },
   "ConflictWhiteList": [],

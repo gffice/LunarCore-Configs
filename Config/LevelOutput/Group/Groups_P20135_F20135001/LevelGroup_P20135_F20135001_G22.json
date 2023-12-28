@@ -4,14 +4,31 @@
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P20135_F20135001_G22",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 4140103,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      43,
+      -25
+    ],
+    "LowerUpperBounds": {
+      "x": -17232,
+      "y": -17231
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      43,
+      -25
+    ],
+    "LowerUpperBounds": {
+      "x": -17232,
+      "y": -17231
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -31,7 +48,7 @@
       "Name": "Anchor2",
       "RotY": 234.5087,
       "RotX": 11.51589,
-      "RotZ": 0.116232,
+      "RotZ": 0.116233,
       "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {

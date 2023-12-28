@@ -4,15 +4,31 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/RogueDLCModule_SubMonster.json",
   "AreaAnchorName": "LevelArea_P80204_F80204001_G80",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -20,
+      81
+    ],
+    "LowerUpperBounds": {
+      "x": 270,
+      "y": 271
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -20,
+      81
+    ],
+    "LowerUpperBounds": {
+      "x": 270,
+      "y": 271
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
     {
@@ -39,11 +55,12 @@
         "ID": 1
       },
       "EventID": 99999011,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
-      "DefaultLookAtMode": "Closed"
+      "DefaultLookAtMode": "Closed",
+      "TagList": []
     }
   ],
   "PropList": [
@@ -53,7 +70,7 @@
       "PosY": 13.47,
       "PosZ": 162.7012,
       "Name": "Buff",
-      "RotY": 7.216083,
+      "RotY": 7.216081,
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/MazeRogue/Maze_Rogue_Prop_TriggerBuffSelect.json",
@@ -65,8 +82,9 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

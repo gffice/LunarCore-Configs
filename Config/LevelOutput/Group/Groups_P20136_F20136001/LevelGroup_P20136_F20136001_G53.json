@@ -4,14 +4,27 @@
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P20136_F20136001_G53",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 4140111,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      3,
+      35,
+      3,
+      36
+    ],
+    "LowerUpperBounds": {
+      "x": 124,
+      "y": 125
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -28,7 +41,7 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -56,7 +69,7 @@
       "PropID": 100008,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

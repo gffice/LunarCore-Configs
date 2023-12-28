@@ -26,7 +26,10 @@
       "ID": 4,
       "Name": "BattleArea",
       "GroupGUID": "b2eabdc8-299b-4783-8968-43d4c83695b5",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20213_F20213002/LevelGroup_P20213_F20213002_G4.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20213_F20213002/LevelGroup_P20213_F20213002_G4.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

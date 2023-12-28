@@ -4,13 +4,30 @@
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P20101_F20101001_G83",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8014128,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      11,
+      -12
+    ],
+    "LowerUpperBounds": {
+      "x": 82,
+      "y": 83
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      11,
+      -12
+    ],
+    "LowerUpperBounds": {
+      "x": 82,
+      "y": 83
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],

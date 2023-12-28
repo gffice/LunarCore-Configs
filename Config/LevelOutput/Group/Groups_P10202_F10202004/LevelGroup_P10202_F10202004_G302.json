@@ -9,28 +9,24 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 21,
-        "y": -18
-      },
-      {
-        "x": 22,
-        "y": -18
-      },
-      {
-        "x": 21,
-        "y": -17
-      },
-      {
-        "x": 22,
-        "y": -17
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      22,
+      -17
     ],
     "LowerUpperBounds": {
       "x": 22,
-      "y": 24
+      "y": 23
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      22,
+      -17
+    ],
+    "LowerUpperBounds": {
+      "x": 22,
+      "y": 23
     }
   },
   "ConflictWhiteList": [],

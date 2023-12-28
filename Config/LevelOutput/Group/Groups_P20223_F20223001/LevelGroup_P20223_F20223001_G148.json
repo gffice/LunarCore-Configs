@@ -4,17 +4,26 @@
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P20223_F20223001_G148",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "IsPendedUnload": true,
   "OwnerMainMissionID": 4040261,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      36,
+      -2,
+      37,
+      -2
+    ],
+    "LowerUpperBounds": {
+      "x": 409,
+      "y": 410
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [],

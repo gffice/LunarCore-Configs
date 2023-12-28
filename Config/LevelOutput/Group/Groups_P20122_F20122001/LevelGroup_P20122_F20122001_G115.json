@@ -5,13 +5,37 @@
   "LevelGraph": "Config/Level/GroupGraph/F20122001/Group_F20122001_G115.json",
   "AreaAnchorName": "LevelArea_P20122_F20122001_G115",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8002105,
   "ValueSource": {},
-  "ConflictIDList": [],
+  "ConflictIDList": [
+    85
+  ],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -39,
+      48
+    ],
+    "LowerUpperBounds": {
+      "x": 265,
+      "y": 266
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -39,
+      46,
+      -39,
+      47,
+      -39,
+      48
+    ],
+    "LowerUpperBounds": {
+      "x": 265,
+      "y": 267
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -258,7 +282,28 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400006,
+      "PosX": -74.27868,
+      "PosY": 3.55088,
+      "PosZ": 98.2122,
+      "Name": "NPC6",
+      "NPCID": 100,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 1,
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "OverrideSeriesID": 210701,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

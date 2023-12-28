@@ -4,6 +4,7 @@
   "AreaAnchorName": "LevelArea_P40222_F40222001_G2",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -35,6 +36,7 @@
       "PropID": 3002,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Raid/InitLevelGraph_Prop_Raid_CheckPoint_01.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 2.5,
         "Offset": {
@@ -56,12 +58,18 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 2,
       "AnchorID": 2,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

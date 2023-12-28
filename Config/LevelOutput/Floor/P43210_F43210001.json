@@ -27,7 +27,10 @@
       "ID": 5,
       "Name": "MainMission2021702_PerformanceD",
       "GroupGUID": "93ae9939-a050-43de-8a46-a5815e4fb6a9",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210001/LevelGroup_P43210_F43210001_G5.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210001/LevelGroup_P43210_F43210001_G5.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 6,
@@ -51,13 +54,19 @@
       "ID": 11,
       "Name": "New Group",
       "GroupGUID": "9349067d-f7a5-49fb-8525-fe2508dbe0c8",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210001/LevelGroup_P43210_F43210001_G11.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210001/LevelGroup_P43210_F43210001_G11.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 12,
       "Name": "Sound",
       "GroupGUID": "db98ab9e-11ec-4197-948c-ffe3974dd709",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210001/LevelGroup_P43210_F43210001_G12.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43210_F43210001/LevelGroup_P43210_F43210001_G12.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 14,

@@ -80,25 +80,37 @@
       "ID": 23,
       "Name": "MainMission8015114_801511405",
       "GroupGUID": "09f9f5de-1dae-4c79-87aa-825aae9aa985",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43215_F43215001/LevelGroup_P43215_F43215001_G23.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43215_F43215001/LevelGroup_P43215_F43215001_G23.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 24,
       "Name": "Sound",
       "GroupGUID": "5d8d8998-d665-4240-a1c2-ba1de6250e87",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43215_F43215001/LevelGroup_P43215_F43215001_G24.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43215_F43215001/LevelGroup_P43215_F43215001_G24.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 25,
       "Name": "Checkpoint",
       "GroupGUID": "93df5e26-3160-4f69-9c0a-bbe85eac6dca",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43215_F43215001/LevelGroup_P43215_F43215001_G25.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43215_F43215001/LevelGroup_P43215_F43215001_G25.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 26,
       "Name": "Doors2",
       "GroupGUID": "fea9f6e3-0c2d-421c-8f9c-1fb8eeb028da",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43215_F43215001/LevelGroup_P43215_F43215001_G26.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43215_F43215001/LevelGroup_P43215_F43215001_G26.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

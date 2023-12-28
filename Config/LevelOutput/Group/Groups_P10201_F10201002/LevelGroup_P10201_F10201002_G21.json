@@ -201,6 +201,7 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_1_1.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -215,7 +216,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300011,
@@ -225,7 +230,16 @@
       "Name": "Prop11",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_1_1_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "502167001"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -240,7 +254,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,
@@ -251,6 +269,7 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_2_1.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -265,7 +284,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300012,
@@ -275,7 +298,16 @@
       "Name": "Prop12",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_2_1_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "502168001"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -290,7 +322,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300003,
@@ -301,6 +337,7 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_3_1.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -315,7 +352,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300013,
@@ -325,7 +366,16 @@
       "Name": "Prop13",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_3_1_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "502169001"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -340,7 +390,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300004,
@@ -351,6 +405,7 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_4_1.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -365,7 +420,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300005,
@@ -376,6 +435,7 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_5_1.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -390,7 +450,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300014,
@@ -400,7 +464,16 @@
       "Name": "Prop14",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_5_1_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "502171001"
+          }
+        ]
+      },
       "Trigger": {
         "Radius": 2.0,
         "DimX": 1.0,
@@ -415,7 +488,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300006,
@@ -426,6 +503,7 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_6_1.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -440,7 +518,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300015,
@@ -450,7 +532,16 @@
       "Name": "Prop15",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_6_1_Conversation.json",
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "502170001"
+          }
+        ]
+      },
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
@@ -458,7 +549,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300007,
@@ -469,6 +564,7 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_7_1.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -483,7 +579,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300008,
@@ -494,6 +594,7 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_8_1.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -508,7 +609,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300009,
@@ -519,6 +624,7 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/10201002/Crowd_10201002_9_1.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.5,
         "DimX": 1.0,
@@ -533,7 +639,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [

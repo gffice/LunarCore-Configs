@@ -4,15 +4,42 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue140/Rogue140Module_RestRoom_1.json",
   "AreaAnchorName": "LevelArea_P80301_F80301001_G20",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      18,
+      -18
+    ],
+    "LowerUpperBounds": {
+      "x": 92,
+      "y": 93
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      13,
+      -20,
+      14,
+      -20,
+      13,
+      -19,
+      16,
+      -19,
+      18,
+      -18,
+      15,
+      -17
+    ],
+    "LowerUpperBounds": {
+      "x": 92,
+      "y": 93
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -36,7 +63,7 @@
       },
       "CampID": 4,
       "EventID": 10000,
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -59,7 +86,7 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -81,7 +108,7 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 18001,
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -101,7 +128,7 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 18002,
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -121,7 +148,7 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 18002,
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -144,7 +171,7 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

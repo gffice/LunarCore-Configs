@@ -9,9 +9,23 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      32,
+      -26,
+      52,
+      -21,
+      43,
+      -16
+    ],
+    "LowerUpperBounds": {
+      "x": 428,
+      "y": 436
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [],

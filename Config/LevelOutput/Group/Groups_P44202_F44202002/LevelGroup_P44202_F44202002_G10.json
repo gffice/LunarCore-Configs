@@ -11,9 +11,19 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      35,
+      -38
+    ],
+    "LowerUpperBounds": {
+      "x": 414,
+      "y": 415
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [
@@ -56,10 +66,14 @@
       "BridgeStateRotations": [],
       "AnchorGroupID": 10,
       "AnchorID": 1,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

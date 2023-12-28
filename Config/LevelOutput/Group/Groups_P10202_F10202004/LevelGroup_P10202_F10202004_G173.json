@@ -13,13 +13,34 @@
       }
     ]
   },
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8003264,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -3,
+      -15,
+      -4,
+      -14
+    ],
+    "LowerUpperBounds": {
+      "x": 20,
+      "y": 21
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -3,
+      -15,
+      -4,
+      -14
+    ],
+    "LowerUpperBounds": {
+      "x": 20,
+      "y": 21
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -51,6 +72,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

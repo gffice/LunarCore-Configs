@@ -3,60 +3,35 @@
   "GroupName": "MainMission2021704_Monster",
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P43211_F43211001_G11",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 2021704,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 40,
-        "y": -4
-      },
-      {
-        "x": 41,
-        "y": -4
-      },
-      {
-        "x": 42,
-        "y": -4
-      },
-      {
-        "x": 40,
-        "y": -3
-      },
-      {
-        "x": 41,
-        "y": -3
-      },
-      {
-        "x": 42,
-        "y": -3
-      },
-      {
-        "x": 19,
-        "y": 14
-      },
-      {
-        "x": 20,
-        "y": 14
-      },
-      {
-        "x": 19,
-        "y": 15
-      },
-      {
-        "x": 20,
-        "y": 15
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      41,
+      -4,
+      20,
+      14
     ],
     "LowerUpperBounds": {
-      "x": 408,
+      "x": 409,
       "y": 410
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      41,
+      -4,
+      0,
+      0,
+      20,
+      14
+    ],
+    "LowerUpperBounds": {
+      "x": 409,
+      "y": 414
     }
   },
   "ConflictWhiteList": [],

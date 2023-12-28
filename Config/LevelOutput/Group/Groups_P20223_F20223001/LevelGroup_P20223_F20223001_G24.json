@@ -5,71 +5,44 @@
   "LevelGraph": "Config/Level/GroupGraph/F20223001/Group_F20223001_G24.json",
   "AreaAnchorName": "LevelArea_P20223_F20223001_G24",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 2021701,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -54,
-        "y": 12
-      },
-      {
-        "x": -53,
-        "y": 12
-      },
-      {
-        "x": -52,
-        "y": 12
-      },
-      {
-        "x": -54,
-        "y": 13
-      },
-      {
-        "x": -53,
-        "y": 13
-      },
-      {
-        "x": -52,
-        "y": 13
-      },
-      {
-        "x": -54,
-        "y": 14
-      },
-      {
-        "x": -53,
-        "y": 14
-      },
-      {
-        "x": -52,
-        "y": 14
-      },
-      {
-        "x": -53,
-        "y": 15
-      },
-      {
-        "x": -52,
-        "y": 15
-      },
-      {
-        "x": -53,
-        "y": 16
-      },
-      {
-        "x": -52,
-        "y": 16
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -53,
+      12,
+      -54,
+      13,
+      -53,
+      13,
+      -53,
+      15,
+      -53,
+      16
     ],
     "LowerUpperBounds": {
-      "x": 407,
-      "y": 410
+      "x": 408,
+      "y": 409
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -53,
+      12,
+      -54,
+      13,
+      -53,
+      13,
+      -53,
+      15,
+      -53,
+      16
+    ],
+    "LowerUpperBounds": {
+      "x": 408,
+      "y": 409
     }
   },
   "ConflictWhiteList": [],

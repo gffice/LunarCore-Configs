@@ -1,0 +1,1089 @@
+{
+  "GroupGUID": "6e7ba4dc-78be-4f13-9f07-bf4136725692",
+  "GroupName": "AtmosphereGroup",
+  "AreaAnchorName": "LevelArea_P20004_F20004001_G52",
+  "SaveType": "Reset",
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 46.09,
+      "PosY": 2.57455,
+      "PosZ": -38.11,
+      "Name": "Anchor1",
+      "RotY": 283.6
+    },
+    {
+      "ID": 2,
+      "PosX": 50.25,
+      "PosY": 2.574555,
+      "PosZ": -39.48,
+      "Name": "Anchor2",
+      "RotY": 107.0292
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 48.53,
+      "PosY": 3.14,
+      "PosZ": -39.28,
+      "Name": "Prop1",
+      "RotY": 18.27051,
+      "PropID": 100,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChat04"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 3.0,
+        "DimX": 4.0,
+        "DimY": 2.0,
+        "DimZ": 14.0,
+        "PointList": []
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 56.28,
+      "PosY": 7.337424,
+      "PosZ": -78.08,
+      "Name": "Prop2",
+      "RotY": 18.27051,
+      "PropID": 100,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig_M20135.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChat05"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.5,
+        "DimX": 4.0,
+        "DimY": 2.0,
+        "DimZ": 14.0,
+        "PointList": []
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 55.9,
+      "PosY": 7.341736,
+      "PosZ": -78.09,
+      "Name": "Prop3",
+      "PropID": 100,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayPerformanceE",
+            "Value": "414011205"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "PointList": []
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 48.5,
+      "PosY": 3.14,
+      "PosZ": -39.27,
+      "Name": "Prop4",
+      "RotY": 18.27051,
+      "PropID": 100,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "StopMunicipalChatName"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 3.0,
+        "DimX": 4.0,
+        "DimY": 2.0,
+        "DimZ": 14.0,
+        "PointList": []
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 44.6,
+      "PosY": 2.57455,
+      "PosZ": -37.74,
+      "Name": "Prop5",
+      "RotY": 17.60432,
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 2.0,
+        "DimY": 2.0,
+        "DimZ": 5.0,
+        "PointList": []
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": 68.1,
+      "PosY": 3.77,
+      "PosZ": -15.17,
+      "Name": "Prop6",
+      "RotY": 18.27051,
+      "PropID": 100,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig_M20135.json"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChat06"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.5,
+        "DimX": 4.0,
+        "DimY": 2.0,
+        "DimZ": 14.0,
+        "PointList": []
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -18.01783,
+      "PosY": 180.92,
+      "PosZ": -79.39908,
+      "Name": "NPC1",
+      "RotY": 47.39711,
+      "NPCID": 3002,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
+      "DefaultIdleFreeStyleMotionID": 200080000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": -21.01,
+      "PosY": 181.669,
+      "PosZ": -85.152,
+      "Name": "NPC2",
+      "RotY": 47.39711,
+      "NPCID": 3044,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
+      "DefaultIdleFreeStyleMotionID": 200080000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": -20.544,
+      "PosY": 181.661,
+      "PosZ": -85.673,
+      "Name": "NPC3",
+      "RotY": 9.900006,
+      "NPCID": 3042,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
+      "DefaultIdleFreeStyleMotionID": 200080000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400004,
+      "PosX": -1.865,
+      "PosY": 414.493,
+      "PosZ": -49.727,
+      "Name": "NPC4",
+      "RotY": 227.6,
+      "NPCID": 3002,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": "Talk01",
+      "DefaultLookAtMode": "Closed",
+      "MapLayerID": 3,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900020247,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400005,
+      "PosX": -2.313,
+      "PosY": 414.0818,
+      "PosZ": -51.42,
+      "Name": "NPC5",
+      "RotY": 347.7,
+      "NPCID": 3002,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": "Idleshow01",
+      "DefaultLookAtMode": "Closed",
+      "MapLayerID": 3,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
+      "DefaultIdleFreeStyleMotionID": 200080000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400006,
+      "PosX": -4.029,
+      "PosY": 414.197,
+      "PosZ": -50.189,
+      "Name": "NPC6",
+      "RotY": 142.5,
+      "NPCID": 3002,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": "Repair01",
+      "DefaultLookAtMode": "Closed",
+      "MapLayerID": 3,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
+      "DefaultIdleFreeStyleMotionID": 200080000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400007,
+      "PosX": 63.41,
+      "PosY": 169.7268,
+      "PosZ": 70.956,
+      "Name": "NPC7",
+      "RotY": 161.5538,
+      "NPCID": 3046,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
+      "DefaultIdleFreeStyleMotionID": 200080000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400008,
+      "PosX": 64.02727,
+      "PosY": 169.7268,
+      "PosZ": 70.18318,
+      "Name": "NPC8",
+      "RotY": 290.4,
+      "NPCID": 3044,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
+      "DefaultIdleFreeStyleMotionID": 200080000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400009,
+      "PosX": 64.83827,
+      "PosY": 169.634,
+      "PosZ": 70.54018,
+      "Name": "NPC9",
+      "RotY": 279.6,
+      "NPCID": 3002,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": "Talk01",
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900020248,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400010,
+      "PosX": 63.5,
+      "PosY": 169.7268,
+      "PosZ": 71.98,
+      "Name": "NPC10",
+      "RotY": 205.3,
+      "NPCID": 3002,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": "Great01",
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900020248,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400011,
+      "PosX": 62.782,
+      "PosY": 169.7268,
+      "PosZ": 71.677,
+      "Name": "NPC11",
+      "RotY": 176.1,
+      "NPCID": 3002,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": "Idleshow01",
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900020248,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400012,
+      "PosX": -21.335,
+      "PosY": 181.97,
+      "PosZ": -92.044,
+      "Name": "NPC12",
+      "NPCID": 3002,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900020247,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400013,
+      "PosX": -23.434,
+      "PosY": 181.395,
+      "PosZ": -89.36,
+      "Name": "NPC13",
+      "RotY": 123.5,
+      "NPCID": 3002,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900020000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400014,
+      "PosX": 24.509,
+      "PosY": 172.73,
+      "PosZ": 59.2,
+      "Name": "NPC14",
+      "RotY": 195.7,
+      "NPCID": 3044,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900130000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400015,
+      "PosX": 24.974,
+      "PosY": 172.592,
+      "PosZ": 58.404,
+      "Name": "NPC15",
+      "RotY": 300.7,
+      "NPCID": 3045,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900130000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400016,
+      "PosX": 24.573,
+      "PosY": 172.3147,
+      "PosZ": 57.711,
+      "Name": "NPC16",
+      "RotY": 356.1,
+      "NPCID": 3049,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900140000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400017,
+      "PosX": -35.839,
+      "PosY": 181.701,
+      "PosZ": -84.853,
+      "Name": "NPC17",
+      "RotY": 356.1,
+      "NPCID": 3049,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900140000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400018,
+      "PosX": -35.356,
+      "PosY": 181.701,
+      "PosZ": -84.172,
+      "Name": "NPC18",
+      "RotY": 263.5,
+      "NPCID": 3046,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900130000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400019,
+      "PosX": 0.482,
+      "PosY": 180.903,
+      "PosZ": -103.043,
+      "Name": "NPC19",
+      "RotY": 121.1,
+      "NPCID": 3041,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900130000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400020,
+      "PosX": 1.477,
+      "PosY": 180.903,
+      "PosZ": -104.195,
+      "Name": "NPC20",
+      "RotY": 316.7,
+      "NPCID": 3049,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900140000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400021,
+      "PosX": 36.314,
+      "PosY": 172.808,
+      "PosZ": 36.273,
+      "Name": "NPC21",
+      "RotY": 279.4,
+      "NPCID": 3045,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900130000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400022,
+      "PosX": 0.153,
+      "PosY": 177.934,
+      "PosZ": -128.153,
+      "Name": "NPC22",
+      "RotY": 295.2,
+      "NPCID": 3047,
+      "ValueSource": {
+        "Values": []
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900130000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400023,
+      "PosX": -0.33,
+      "PosY": 177.924,
+      "PosZ": -128.877,
+      "Name": "NPC23",
+      "RotY": 322.8,
+      "NPCID": 3044,
+      "ValueSource": {
+        "Values": []
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900130000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400024,
+      "PosX": -13.847,
+      "PosY": 413.512,
+      "PosZ": -32.758,
+      "Name": "NPC24",
+      "RotY": 256.2,
+      "NPCID": 3046,
+      "ValueSource": {
+        "Values": []
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 3,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900130000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400025,
+      "PosX": -15.187,
+      "PosY": 413.749,
+      "PosZ": -33.054,
+      "Name": "NPC25",
+      "RotY": 54.0,
+      "NPCID": 3044,
+      "ValueSource": {
+        "Values": []
+      },
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 3,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900130000,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400026,
+      "PosX": -8.872,
+      "PosY": 181.728,
+      "PosZ": -130.1,
+      "Name": "NPC26",
+      "RotY": 238.3,
+      "NPCID": 3002,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 2,
+      "PossessionConfig": {
+        "Name": "Possession_Goods_SandBags_A_01",
+        "LocalPosition": {
+          "y": 0.85
+        }
+      },
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1373687374
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900020014,
+      "InitialHiddenNodeList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "TriggerValidGuest": {}
+    }
+  ]
+}

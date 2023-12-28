@@ -3,14 +3,25 @@
   "GroupName": "RogueDLC130_BaseBoss",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80202_F80202001_G37",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      62,
+      51
+    ],
+    "LowerUpperBounds": {
+      "x": 299,
+      "y": 300
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -48,6 +59,7 @@
       "State": "CustomState01",
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

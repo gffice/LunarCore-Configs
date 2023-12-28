@@ -3,14 +3,33 @@
   "GroupName": "Rogue140_BaseCommon",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80302_F80302001_G86",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      132,
+      -80,
+      133,
+      -80,
+      130,
+      -79,
+      131,
+      -76,
+      135,
+      -74
+    ],
+    "LowerUpperBounds": {
+      "x": 203,
+      "y": 204
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -31,7 +50,10 @@
       "RotX": 2.634374,
       "RotZ": 358.5897,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],

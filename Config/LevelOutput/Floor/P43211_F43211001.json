@@ -8,7 +8,10 @@
       "ID": 1,
       "Name": "DefaultGroup",
       "GroupGUID": "49723c89-0a79-473e-a001-67f2daf4309d",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G1.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G1.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 2,
@@ -20,7 +23,10 @@
       "ID": 3,
       "Name": "MainMission2021704_HH_TX_02",
       "GroupGUID": "2374b696-2aea-4e83-b547-fa003c4f7b07",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G3.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G3.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 7,
@@ -38,19 +44,28 @@
       "ID": 9,
       "Name": "MainMission2021704_HHTX_LT2",
       "GroupGUID": "4fe48cfd-2147-46c2-8567-3fd9d9fc764b",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G9.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G9.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 10,
       "Name": "SuiGardenElevator",
       "GroupGUID": "ab42f84f-29ba-4f49-8200-caf003b6043e",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G10.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G10.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 11,
       "Name": "MainMission2021704_Monster",
       "GroupGUID": "fb947266-c2f3-4d3b-94c8-cbd3757f10f8",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G11.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G11.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 12,
@@ -86,13 +101,19 @@
       "ID": 18,
       "Name": "Sound_02",
       "GroupGUID": "1490beaa-ac9d-48ca-a0f7-1363665c4f9b",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G18.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G18.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 19,
       "Name": "MainMission0_BattleArea",
       "GroupGUID": "b8982d26-b827-4f8c-830a-9357c168916a",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G19.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43211_F43211001/LevelGroup_P43211_F43211001_G19.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

@@ -3,10 +3,6 @@
   "GroupName": "FarmRelic",
   "Category": "System",
   "AreaAnchorName": "LevelArea_P20223_F20223001_G67",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "SystemUnlockCondition": {
     "Conditions": [
       23201
@@ -16,9 +12,21 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -29,
+      10,
+      -28,
+      10
+    ],
+    "LowerUpperBounds": {
+      "x": 406,
+      "y": 407
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [

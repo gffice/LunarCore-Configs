@@ -541,7 +541,10 @@
       "ID": 134,
       "Name": "MainMission2000801_01",
       "GroupGUID": "4d6692b4-4233-4534-9575-09663dc87712",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G134.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G134.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 135,
@@ -577,73 +580,109 @@
       "ID": 144,
       "Name": "MainMission4050038_01",
       "GroupGUID": "f6f2295c-6240-440c-af7f-299d372feb97",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G144.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G144.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 145,
       "Name": "MainMission4050039_01",
       "GroupGUID": "d9f2c093-8c2f-46e7-b593-1fdce3e94302",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G145.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G145.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 152,
       "Name": "MainMission2000801_2",
       "GroupGUID": "35de6f27-1590-43cf-87e6-53fbf77befb6",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G152.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G152.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 153,
       "Name": "MainMission2000803_1",
       "GroupGUID": "9a737a7c-f3b4-4f15-9b55-d623720f18f2",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G153.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G153.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 154,
       "Name": "MainMission8015163_801516304",
       "GroupGUID": "39d2c3ea-a46d-463b-a4ac-25709ea91043",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G154.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G154.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 155,
       "Name": "MainMission8015163_801516305",
       "GroupGUID": "24dd12ed-b14f-4136-b6fb-fa1b4c476979",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G155.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G155.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 156,
       "Name": "MainMission8015163_801516309",
       "GroupGUID": "070d2381-4df0-4b90-a455-8b4cdef79ec2",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G156.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G156.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 157,
       "Name": "MainMission8015163_801516310",
       "GroupGUID": "cbc37b23-04cd-4c63-9b30-f9789647a4f4",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G157.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G157.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 158,
       "Name": "MainMission8015163_801516317",
       "GroupGUID": "b8202fd6-4003-4589-a6ac-f93b8b35ffb3",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G158.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G158.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 159,
       "Name": "MainMission8015163_801516320",
       "GroupGUID": "afe4f499-2f1c-49fa-b73c-7aeb73a73e9f",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G159.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G159.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 160,
       "Name": "MainMission8015163_801516301",
       "GroupGUID": "93aaea67-cd5c-4ed8-aed0-b6a4550b7730",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G160.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G160.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 161,
       "Name": "MainMission8015163_801516321",
       "GroupGUID": "12d226cf-15bb-47df-8f71-57fe65ba45f2",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G161.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G161.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

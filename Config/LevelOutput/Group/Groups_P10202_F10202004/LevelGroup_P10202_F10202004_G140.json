@@ -4,12 +4,30 @@
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P10202_F10202004_G140",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8003263,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      12,
+      1
+    ],
+    "LowerUpperBounds": {
+      "x": 23,
+      "y": 24
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      12,
+      1
+    ],
+    "LowerUpperBounds": {
+      "x": 23,
+      "y": 24
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -74,6 +92,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -94,6 +113,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

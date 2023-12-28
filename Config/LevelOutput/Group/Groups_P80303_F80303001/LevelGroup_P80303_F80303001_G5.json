@@ -3,9 +3,35 @@
   "GroupName": "New Group",
   "AreaAnchorName": "LevelArea_P80303_F80303001_G5",
   "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Operation": "And"
+  },
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      0,
+      -92,
+      -24,
+      -91,
+      -59,
+      -48,
+      0,
+      -47,
+      -1,
+      -28
+    ],
+    "LowerUpperBounds": {
+      "x": 57,
+      "y": 60
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,

@@ -8,24 +8,21 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -4,
-        "y": 3
-      },
-      {
-        "x": -3,
-        "y": 3
-      },
-      {
-        "x": -4,
-        "y": 4
-      },
-      {
-        "x": -3,
-        "y": 4
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -3,
+      4
+    ],
+    "LowerUpperBounds": {
+      "y": 1
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -4,
+      4,
+      -3,
+      4
     ],
     "LowerUpperBounds": {
       "y": 2

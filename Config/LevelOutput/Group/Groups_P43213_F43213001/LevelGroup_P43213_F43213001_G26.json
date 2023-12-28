@@ -12,9 +12,19 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      81,
+      -37
+    ],
+    "LowerUpperBounds": {
+      "x": 77,
+      "y": 78
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [

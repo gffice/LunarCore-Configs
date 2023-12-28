@@ -11,9 +11,23 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      37,
+      -13,
+      -19,
+      -6,
+      33,
+      10
+    ],
+    "LowerUpperBounds": {
+      "x": 407,
+      "y": 413
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [
@@ -73,6 +87,7 @@
       "BridgeStateRotations": [],
       "AnchorGroupID": 12,
       "AnchorID": 1,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -108,6 +123,7 @@
       "BridgeStateRotations": [],
       "AnchorGroupID": 12,
       "AnchorID": 2,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -143,6 +159,7 @@
       "BridgeStateRotations": [],
       "AnchorGroupID": 12,
       "AnchorID": 3,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],

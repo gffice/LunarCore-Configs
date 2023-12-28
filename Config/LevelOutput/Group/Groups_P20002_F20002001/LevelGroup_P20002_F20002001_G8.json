@@ -2,9 +2,34 @@
   "GroupGUID": "c97dd9c7-e187-40c8-8d27-17ce711b3a0e",
   "GroupName": "Elevator",
   "AreaAnchorName": "LevelArea_P20002_F20002001_G8",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "ConflictIDList": [],
+  "ValueSource": {},
+  "ConflictIDList": [
+    96738
+  ],
+  "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -39,
+      -37,
+      -37,
+      -37
+    ],
+    "LowerUpperBounds": {
+      "x": 89,
+      "y": 101
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -83,10 +108,15 @@
       "State": "Locked",
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,
@@ -136,6 +166,7 @@
       "State": "Locked",
       "MapLayerID": 3,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -173,6 +204,7 @@
       "State": "Elevator1",
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

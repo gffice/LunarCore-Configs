@@ -3,17 +3,29 @@
   "GroupName": "RogueOrigin_Area",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P81221_F81221001_G71",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      0,
+      -66,
+      12,
+      -59,
+      -7,
+      -56,
+      0,
+      -45
+    ],
+    "LowerUpperBounds": {
+      "x": 72,
+      "y": 76
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [],

@@ -2,17 +2,33 @@
   "GroupGUID": "6b375a04-1b71-4167-9562-300fc560b75a",
   "GroupName": "RogueDLC130_Shopruosi",
   "Category": "Custom",
-  "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/RogueDLCModule_RestRoom.json",
   "AreaAnchorName": "LevelArea_P80210_F80210001_G71",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
+  "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -52,
+      -18
+    ],
+    "LowerUpperBounds": {
+      "x": 1,
+      "y": 2
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -52,
+      -18
+    ],
+    "LowerUpperBounds": {
+      "x": 1,
+      "y": 2
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],

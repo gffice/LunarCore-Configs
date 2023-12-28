@@ -86,6 +86,7 @@
       },
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -107,6 +108,7 @@
       },
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -122,6 +124,7 @@
       "RotY": 150.0,
       "NPCID": 3001,
       "LevelGraph": "Config/Level/Maze/Chapter00/Train/Train_PamAction.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 3.0,
         "DimX": 1.0,
@@ -167,7 +170,12 @@
             "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G3/Pack/Pack_F10000000_G3_N400004.json"
           }
         ]
-      }
+      },
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400002,

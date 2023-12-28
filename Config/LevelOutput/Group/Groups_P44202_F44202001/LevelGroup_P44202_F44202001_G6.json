@@ -3,15 +3,27 @@
   "GroupName": "MainMission4072021_BuffHint",
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P44202_F44202001_G6",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 4072021,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      0,
+      0
+    ],
+    "LowerUpperBounds": {
+      "x": 413,
+      "y": 414
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [

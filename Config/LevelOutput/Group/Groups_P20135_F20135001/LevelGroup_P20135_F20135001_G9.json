@@ -27,6 +27,7 @@
     ]
   },
   "OwnerMainMissionID": 2010203,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -82,18 +83,20 @@
       "Name": "NPC3",
       "RotY": 225.3,
       "NPCID": 11234,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 100020368,
+      "DefaultIdleFreeStyleMotionID": 100020222,
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400004,
@@ -124,6 +127,7 @@
       "Name": "NPC5",
       "RotY": 287.1,
       "NPCID": 11405,
+      "ValueSource": {},
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
@@ -139,7 +143,8 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400006,
@@ -149,6 +154,7 @@
       "Name": "NPC6",
       "RotY": 248.8,
       "NPCID": 11234,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
@@ -160,7 +166,8 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400007,
@@ -170,6 +177,7 @@
       "Name": "NPC7",
       "RotY": 298.07,
       "NPCID": 11105,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
@@ -181,7 +189,8 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400008,
@@ -191,6 +200,7 @@
       "Name": "NPC8",
       "RotY": 1.099998,
       "NPCID": 11233,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
@@ -202,7 +212,8 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400009,
@@ -212,6 +223,7 @@
       "Name": "NPC9",
       "RotY": 221.15,
       "NPCID": 11232,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
@@ -223,7 +235,8 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400010,
@@ -233,6 +246,7 @@
       "Name": "NPC10",
       "RotY": 258.7543,
       "NPCID": 11103,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
@@ -244,7 +258,8 @@
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

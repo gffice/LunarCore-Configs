@@ -18,24 +18,22 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 28,
-        "y": 10
-      },
-      {
-        "x": 29,
-        "y": 10
-      },
-      {
-        "x": 28,
-        "y": 11
-      },
-      {
-        "x": 29,
-        "y": 11
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      29,
+      11
+    ],
+    "LowerUpperBounds": {
+      "x": 407,
+      "y": 408
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      30,
+      10,
+      29,
+      11
     ],
     "LowerUpperBounds": {
       "x": 407,

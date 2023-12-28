@@ -4,15 +4,38 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue140/Rogue140Module_AdvTrotterRoom.json",
   "AreaAnchorName": "LevelArea_P80304_F80304001_G117",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -31,
+      19,
+      -27,
+      21,
+      -4,
+      29,
+      -6,
+      30,
+      -4,
+      30,
+      -4,
+      31,
+      -2,
+      32
+    ],
+    "LowerUpperBounds": {
+      "x": 2045,
+      "y": 2047
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,

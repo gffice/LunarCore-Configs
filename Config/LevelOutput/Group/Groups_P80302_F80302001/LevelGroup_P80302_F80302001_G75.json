@@ -4,14 +4,33 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue140/Rogue140Module_MainMonster.json",
   "AreaAnchorName": "LevelArea_P80302_F80302001_G75",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      61,
+      -66
+    ],
+    "LowerUpperBounds": {
+      "x": 206,
+      "y": 207
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      61,
+      -66,
+      62,
+      -65
+    ],
+    "LowerUpperBounds": {
+      "x": 206,
+      "y": 207
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
     {
@@ -42,7 +61,8 @@
       "BoardShowList": [
         4
       ],
-      "DefaultLookAtMode": "Closed"
+      "DefaultLookAtMode": "Closed",
+      "TagList": []
     }
   ],
   "PropList": [

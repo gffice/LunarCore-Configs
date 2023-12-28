@@ -3,15 +3,25 @@
   "GroupName": "RogueDLC130_BaseBoss",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80210_F80210001_G73",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -139,
+      1
+    ],
+    "LowerUpperBounds": {
+      "x": -8,
+      "y": -7
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -27,8 +37,8 @@
   "PropList": [
     {
       "ID": 300001,
-      "PosX": -279.9278,
-      "PosY": -14.38435,
+      "PosX": -277.8,
+      "PosY": -14.384,
       "PosZ": 3.303646,
       "Name": "Duck",
       "RotY": 90.0,
@@ -49,12 +59,17 @@
       "State": "CustomState01",
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "Dialog": {
         "PackList": []
+      },
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
       }
     }
   ],

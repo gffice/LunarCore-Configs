@@ -5,13 +5,38 @@
   "LevelGraph": "Config/Level/GroupGraph/F10202004/Group_F10202004_G182.json",
   "AreaAnchorName": "LevelArea_P10202_F10202004_G182",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8003265,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      11,
+      -15,
+      10,
+      -14,
+      11,
+      -14
+    ],
+    "LowerUpperBounds": {
+      "x": 22,
+      "y": 23
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      11,
+      -15,
+      10,
+      -14,
+      11,
+      -14
+    ],
+    "LowerUpperBounds": {
+      "x": 22,
+      "y": 23
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -41,7 +66,10 @@
       "RotX": 9.957595,
       "RotZ": 359.174,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 4,
@@ -72,6 +100,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

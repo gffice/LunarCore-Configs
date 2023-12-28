@@ -4,6 +4,7 @@
   "AreaAnchorName": "LevelArea_P80209_F80209001_G24",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],

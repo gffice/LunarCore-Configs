@@ -4,50 +4,39 @@
   "LevelGraph": "Config/Level/Maze/MazeGroup/Maze_Group_OpenTreasure_WhenMonsterDie.json",
   "AreaAnchorName": "LevelArea_P20223_F20223001_G22",
   "SavedValueCondition": {
+    "Conditions": [],
     "Operation": "And"
   },
   "LoadSide": "Server",
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -36,
-        "y": -11
-      },
-      {
-        "x": -35,
-        "y": -11
-      },
-      {
-        "x": -34,
-        "y": -11
-      },
-      {
-        "x": -36,
-        "y": -10
-      },
-      {
-        "x": -35,
-        "y": -10
-      },
-      {
-        "x": -34,
-        "y": -10
-      },
-      {
-        "x": -35,
-        "y": -9
-      },
-      {
-        "x": -34,
-        "y": -9
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -35,
+      -11,
+      -34,
+      -10
     ],
     "LowerUpperBounds": {
-      "x": 408,
-      "y": 411
+      "x": 409,
+      "y": 410
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -35,
+      -12,
+      -35,
+      -11,
+      -34,
+      -10,
+      0,
+      0
+    ],
+    "LowerUpperBounds": {
+      "x": 409,
+      "y": 414
     }
   },
   "ConflictWhiteList": [],
@@ -77,7 +66,9 @@
       "BoardShowList": [
         4
       ],
-      "TagList": []
+      "TagList": [
+        "ResistInstantKill"
+      ]
     },
     {
       "ID": 200002,
@@ -102,7 +93,9 @@
       "BoardShowList": [
         4
       ],
-      "TagList": []
+      "TagList": [
+        "ResistInstantKill"
+      ]
     }
   ],
   "PropList": [

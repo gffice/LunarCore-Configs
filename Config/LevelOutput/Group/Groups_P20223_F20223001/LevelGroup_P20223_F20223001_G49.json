@@ -53,9 +53,25 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      37,
+      -33,
+      39,
+      -32,
+      40,
+      -31,
+      35,
+      -30
+    ],
+    "LowerUpperBounds": {
+      "x": 414,
+      "y": 427
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [

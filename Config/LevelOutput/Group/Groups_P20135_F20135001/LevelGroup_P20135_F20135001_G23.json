@@ -4,14 +4,29 @@
   "Category": "Mission",
   "LevelGraph": "Config/Level/GroupGraph/F20135001/Group_F20135001_G23.json",
   "AreaAnchorName": "LevelArea_P20135_F20135001_G23",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 4140103,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      28,
+      -24,
+      28,
+      -19,
+      33,
+      -15
+    ],
+    "LowerUpperBounds": {
+      "x": -17234,
+      "y": -17233
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,

@@ -101,6 +101,51 @@
       "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G17.json"
     },
     {
+      "ID": 105,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "e911d639-924f-414d-8ee3-bad45e782997",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G105.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 106,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "a2b8c5cb-e5e8-408a-b3d6-e34b92488635",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G106.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 107,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "8755d601-9e15-4889-a9ee-958b1d696ba4",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G107.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 108,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "6093cc0b-d765-4963-bb99-a163cfca4635",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G108.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 109,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "0cf02f68-fdc5-44e9-9ede-0650edaff7c6",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G109.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
       "ID": 81,
       "Name": "RogueDLC130_MainMonster",
       "GroupGUID": "1bcf4806-10f2-4542-be03-132674af8531",
@@ -201,6 +246,51 @@
       "Name": "RogueRoom_Event",
       "GroupGUID": "7dc04d75-73ee-47ee-a279-ad953c3f8554",
       "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G28.json"
+    },
+    {
+      "ID": 100,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "1a6ff748-1ca1-4534-9eb2-6cd7134c4616",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G100.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 101,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "647a1cb7-2021-432d-9732-c692b63bc77d",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G101.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 102,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "44ff6804-1236-4125-b7f4-277c5e8f73cf",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G102.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 103,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "89f310fd-4c8b-4c20-a83d-03f3b340bb87",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G103.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 104,
+      "Name": "RogueDLC130_Event",
+      "GroupGUID": "07318cb7-88a9-4564-ae42-28769436fb95",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80210_F80210001/LevelGroup_P80210_F80210001_G104.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 29,

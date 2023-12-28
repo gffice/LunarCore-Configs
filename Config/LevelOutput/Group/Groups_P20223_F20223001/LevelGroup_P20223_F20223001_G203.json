@@ -9,52 +9,18 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -58,
-        "y": -43
-      },
-      {
-        "x": -57,
-        "y": -43
-      },
-      {
-        "x": -56,
-        "y": -43
-      },
-      {
-        "x": -58,
-        "y": -42
-      },
-      {
-        "x": -57,
-        "y": -42
-      },
-      {
-        "x": -56,
-        "y": -42
-      },
-      {
-        "x": -58,
-        "y": -41
-      },
-      {
-        "x": -57,
-        "y": -41
-      },
-      {
-        "x": -56,
-        "y": -41
-      }
-    ],
-    "LowerUpperBounds": {
-      "x": 419,
-      "y": 422
-    }
-  },
   "ConflictWhiteList": [],
-  "AnchorList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -111.6777,
+      "PosY": 14.6774,
+      "PosZ": -91.3,
+      "Name": "Anchor1",
+      "RotY": 243.5,
+      "MapLayerID": 1
+    }
+  ],
   "MonsterList": [],
   "PropList": [],
   "NPCList": [

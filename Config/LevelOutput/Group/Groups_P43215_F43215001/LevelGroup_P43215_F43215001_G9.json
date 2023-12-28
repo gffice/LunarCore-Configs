@@ -9,48 +9,28 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 39,
-        "y": 17
-      },
-      {
-        "x": 40,
-        "y": 17
-      },
-      {
-        "x": 41,
-        "y": 17
-      },
-      {
-        "x": 39,
-        "y": 18
-      },
-      {
-        "x": 40,
-        "y": 18
-      },
-      {
-        "x": 41,
-        "y": 18
-      },
-      {
-        "x": 39,
-        "y": 19
-      },
-      {
-        "x": 40,
-        "y": 19
-      },
-      {
-        "x": 41,
-        "y": 19
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      40,
+      18
     ],
     "LowerUpperBounds": {
       "x": 7,
-      "y": 9
+      "y": 8
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      40,
+      15,
+      40,
+      18,
+      40,
+      19
+    ],
+    "LowerUpperBounds": {
+      "x": 7,
+      "y": 8
     }
   },
   "ConflictWhiteList": [],

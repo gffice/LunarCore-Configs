@@ -8,9 +8,37 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -53,
+      -29,
+      -49,
+      -29,
+      -47,
+      -26,
+      -55,
+      -20,
+      -66,
+      -19,
+      -50,
+      -15,
+      -42,
+      -15,
+      -58,
+      -14,
+      -56,
+      -8,
+      -46,
+      -7
+    ],
+    "LowerUpperBounds": {
+      "x": 409,
+      "y": 421
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [],

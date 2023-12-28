@@ -3,15 +3,31 @@
   "GroupName": "RogueDLC130_Shopruosi",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80209_F80209001_G100",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      26,
+      93
+    ],
+    "LowerUpperBounds": {
+      "x": 129,
+      "y": 130
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      26,
+      93
+    ],
+    "LowerUpperBounds": {
+      "x": 129,
+      "y": 130
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],

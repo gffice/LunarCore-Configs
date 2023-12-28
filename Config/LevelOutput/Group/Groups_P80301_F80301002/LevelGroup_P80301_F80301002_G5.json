@@ -4,14 +4,37 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue140/Rogue140Module_AdvDesRoom.json",
   "AreaAnchorName": "LevelArea_P80301_F80301002_G5",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -102,
+      -45,
+      -103,
+      -44,
+      -102,
+      -44,
+      -101,
+      -44,
+      -102,
+      -43,
+      -73,
+      -37,
+      -71,
+      -36
+    ],
+    "LowerUpperBounds": {
+      "x": 90,
+      "y": 93
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,

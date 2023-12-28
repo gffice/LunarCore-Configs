@@ -4,35 +4,27 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/RogueModule/RogueModule_EventRoom.json",
   "AreaAnchorName": "LevelArea_P81221_F81221001_G25",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -23,
-        "y": -38
-      },
-      {
-        "x": -22,
-        "y": -38
-      },
-      {
-        "x": -23,
-        "y": -37
-      },
-      {
-        "x": -22,
-        "y": -37
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -23,
+      -38
     ],
     "LowerUpperBounds": {
-      "x": 73,
+      "x": 74,
+      "y": 75
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -23,
+      -38
+    ],
+    "LowerUpperBounds": {
+      "x": 74,
       "y": 75
     }
   },

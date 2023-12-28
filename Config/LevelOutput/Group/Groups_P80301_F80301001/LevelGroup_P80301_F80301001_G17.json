@@ -1,13 +1,40 @@
 {
   "GroupGUID": "3d732680-732b-4a11-80c4-a5761015b67a",
   "GroupName": "FlipBridge",
-  "ConfigPrefabPath": "Level/Maze/Chapter00/Chap01_MAZ_N2_LevelArea.prefab",
   "AreaAnchorName": "LevelArea_P80301_F80301001_G17",
+  "SavedValueCondition": {
+    "Operation": "And"
+  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "GroupRefreshID": 1,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -20,
+      -42,
+      -94,
+      -40,
+      -85,
+      -40,
+      -82,
+      -36,
+      -98,
+      -35,
+      -90,
+      -31
+    ],
+    "LowerUpperBounds": {
+      "x": 88,
+      "y": 101
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [

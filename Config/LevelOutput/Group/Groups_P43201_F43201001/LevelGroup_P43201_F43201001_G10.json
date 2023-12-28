@@ -4,6 +4,7 @@
   "AreaAnchorName": "LevelArea_P43201_F43201001_G10",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -13,7 +14,7 @@
       "PosZ": -61.47,
       "Name": "Anchor1",
       "RotY": 88.5,
-      "MapLayerID": 1
+      "MapLayerID": 2
     }
   ],
   "MonsterList": [],
@@ -27,9 +28,10 @@
       "PropID": 3002,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Raid/InitLevelGraph_Prop_Raid_CheckPoint_01.json",
+      "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 11.0,
@@ -37,12 +39,18 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 10,
       "AnchorID": 1,
+      "MappingInfoID": 2102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

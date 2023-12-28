@@ -4,15 +4,36 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue140/Rogue140Module_BossRoom_Empty.json",
   "AreaAnchorName": "LevelArea_P80302_F80302001_G69",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      94,
+      -64,
+      92,
+      -62
+    ],
+    "LowerUpperBounds": {
+      "x": 191,
+      "y": 192
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      94,
+      -64,
+      92,
+      -62
+    ],
+    "LowerUpperBounds": {
+      "x": 191,
+      "y": 192
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
     {

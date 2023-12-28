@@ -12,10 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "SpatialInfo": {
-    "GridList": [],
-    "LowerUpperBounds": {}
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {

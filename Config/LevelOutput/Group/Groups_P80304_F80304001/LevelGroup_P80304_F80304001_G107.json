@@ -4,14 +4,34 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue140/Rogue140Module_Level5_EliteRoom.json",
   "AreaAnchorName": "LevelArea_P80304_F80304001_G107",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      38,
+      58
+    ],
+    "LowerUpperBounds": {
+      "x": 2045,
+      "y": 2046
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      38,
+      58,
+      38,
+      60
+    ],
+    "LowerUpperBounds": {
+      "x": 2045,
+      "y": 2046
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
     {

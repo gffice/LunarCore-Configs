@@ -41,7 +41,7 @@
       "Name": "Anchor2",
       "RotY": 89.99993,
       "RotX": 71.64094,
-      "RotZ": -3.8E-5,
+      "RotZ": -4.3E-5,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -467,7 +467,7 @@
     {
       "ID": 400007,
       "PosX": 173.58,
-      "PosY": 21.64169,
+      "PosY": 21.69,
       "PosZ": -71.78,
       "Name": "NPC7",
       "RotY": 270.0,
@@ -481,12 +481,13 @@
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
-      }
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400008,
       "PosX": 177.35,
-      "PosY": 21.64169,
+      "PosY": 21.69,
       "PosZ": -75.79,
       "Name": "NPC8",
       "RotY": 270.0,
@@ -501,7 +502,8 @@
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
-      }
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

@@ -10,6 +10,49 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -24,
+      -155,
+      85,
+      -131,
+      -200,
+      -76,
+      -202,
+      -71,
+      -209,
+      -67,
+      145,
+      -58,
+      -186,
+      -43,
+      162,
+      -35,
+      159,
+      -30,
+      152,
+      -28,
+      -44,
+      17,
+      -159,
+      63,
+      -153,
+      63,
+      -148,
+      68,
+      126,
+      69
+    ],
+    "LowerUpperBounds": {
+      "x": 407,
+      "y": 428
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -18,7 +61,6 @@
       "PosZ": -309.2633,
       "Name": "Island2_a",
       "RotY": 332.9015,
-      "RotZ": 1.0E-6,
       "MapLayerID": 1
     },
     {
@@ -100,7 +142,6 @@
       "PosZ": -265.6743,
       "Name": "IslandB_a",
       "RotY": 59.20085,
-      "RotX": -1.0E-6,
       "MapLayerID": 1
     },
     {

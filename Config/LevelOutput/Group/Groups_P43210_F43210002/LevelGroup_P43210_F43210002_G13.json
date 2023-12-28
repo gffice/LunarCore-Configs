@@ -59,9 +59,41 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      20,
+      47,
+      9,
+      50,
+      17,
+      53,
+      9,
+      55,
+      18,
+      55,
+      1,
+      58,
+      5,
+      58,
+      12,
+      58,
+      9,
+      62,
+      8,
+      67,
+      9,
+      75,
+      9,
+      79
+    ],
+    "LowerUpperBounds": {
+      "x": 5,
+      "y": 8
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [
@@ -349,9 +381,9 @@
     },
     {
       "ID": 300008,
-      "PosX": 3.29,
-      "PosY": 7.199996,
-      "PosZ": 117.19,
+      "PosX": 0.149973,
+      "PosY": 7.199998,
+      "PosZ": 117.29,
       "Name": "Prop8",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
@@ -361,7 +393,7 @@
         "Radius": 1.0,
         "DimX": 2.0,
         "DimY": 2.0,
-        "DimZ": 5.0,
+        "DimZ": 9.0,
         "PointList": []
       },
       "CampID": 4,
@@ -372,7 +404,11 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "IsClientOnly": true
+      "IsClientOnly": true,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300009,

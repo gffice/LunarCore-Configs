@@ -3,15 +3,37 @@
   "GroupName": "RogueDLC130_",
   "Category": "Custom",
   "AreaAnchorName": "LevelArea_P80207_F80207001_G66",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
-  "GroupStateList": [],
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -30,
+      22
+    ],
+    "LowerUpperBounds": {
+      "x": 2039,
+      "y": 2040
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      0,
+      0,
+      -30,
+      22,
+      -35,
+      23,
+      -54,
+      26
+    ],
+    "LowerUpperBounds": {
+      "x": 2039,
+      "y": 2046
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -27,8 +49,7 @@
       "PosX": -107.8,
       "PosY": -0.59,
       "PosZ": 52.98,
-      "Name": "ShipPoseOriginPos",
-      "MapLayerID": 1
+      "Name": "ShipPoseOriginPos"
     },
     {
       "ID": 3,
@@ -48,7 +69,10 @@
       "RotX": 18.10001,
       "RotZ": 5.0E-6,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 5,
@@ -60,7 +84,10 @@
       "RotX": 18.10001,
       "RotZ": 5.0E-6,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 6,
@@ -81,7 +108,10 @@
       "RotX": 6.5,
       "RotZ": 6.0E-6,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 8,
@@ -96,8 +126,7 @@
       "PosX": -122.8,
       "PosY": -0.59,
       "PosZ": 52.819,
-      "Name": "SideRight_ShipPoseOriginPos",
-      "MapLayerID": 1
+      "Name": "SideRight_ShipPoseOriginPos"
     },
     {
       "ID": 10,
@@ -117,7 +146,10 @@
       "RotX": 6.300009,
       "RotZ": 2.4E-5,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 12,
@@ -128,7 +160,10 @@
       "RotY": 359.4,
       "RotZ": 6.0E-6,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 13,
@@ -168,11 +203,11 @@
         "ID": 1
       },
       "EventID": 99999011,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
-      "DefaultLookAtMode": "Closed"
+      "DefaultLookAtMode": "Closed",
+      "TagList": []
     }
   ],
   "PropList": [
@@ -238,6 +273,7 @@
           "PointList": []
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10046,
       "DialogueGroups": [],
@@ -264,8 +300,8 @@
       "PropID": 102063,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -341,6 +377,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -367,8 +404,8 @@
       },
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10046,
       "DialogueGroups": [],
@@ -392,7 +429,6 @@
       "NPCID": 3013,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

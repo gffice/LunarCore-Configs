@@ -44,7 +44,10 @@
       "ID": 7,
       "Name": "MainMission2000802_14",
       "GroupGUID": "390467b5-320b-4b83-8ba5-c8498155fc16",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G7.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G7.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 8,
@@ -68,25 +71,37 @@
       "ID": 11,
       "Name": "Sound",
       "GroupGUID": "bb9440fa-abd1-489e-802d-61d9206190ed",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G11.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G11.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 12,
       "Name": "Door",
       "GroupGUID": "f7bad4e5-c2dd-4964-9bcc-b575c448044a",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G12.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G12.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 14,
       "Name": "Anchor",
       "GroupGUID": "7acf30db-69a4-4ccb-b32d-d5d37dff1f95",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G14.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G14.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 16,
       "Name": "EnvControl",
       "GroupGUID": "cb3c6568-8e5e-48f3-9a9a-af8cf53bda98",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G16.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43001_F43001002/LevelGroup_P43001_F43001002_G16.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

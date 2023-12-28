@@ -758,13 +758,19 @@
       "ID": 155,
       "Name": "MainMission8015157_xiongzhai",
       "GroupGUID": "ee8d1af4-40b9-40ac-898c-8fd8c932ae08",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20231_F20231001/LevelGroup_P20231_F20231001_G155.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20231_F20231001/LevelGroup_P20231_F20231001_G155.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 156,
       "Name": "MainMission8015157_xiongzhai",
       "GroupGUID": "6c37d8a2-0d43-4a28-9617-328fe9a98029",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20231_F20231001/LevelGroup_P20231_F20231001_G156.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20231_F20231001/LevelGroup_P20231_F20231001_G156.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 157,

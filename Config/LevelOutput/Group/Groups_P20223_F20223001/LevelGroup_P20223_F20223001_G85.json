@@ -9,30 +9,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 36,
-        "y": 10
-      },
-      {
-        "x": 37,
-        "y": 10
-      },
-      {
-        "x": 36,
-        "y": 11
-      },
-      {
-        "x": 37,
-        "y": 11
-      }
-    ],
-    "LowerUpperBounds": {
-      "x": 406,
-      "y": 409
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],

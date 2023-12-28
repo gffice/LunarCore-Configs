@@ -20,13 +20,19 @@
       "ID": 3,
       "Name": "Default_BoundaryCamera_Client",
       "GroupGUID": "55c13582-a164-467e-8a6e-ec165cee145b",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G3.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G3.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 4,
       "Name": "Sound",
       "GroupGUID": "af1bcca6-74dc-4862-86fe-0d2c99762edf",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G4.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G4.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 5,
@@ -44,7 +50,10 @@
       "ID": 7,
       "Name": "Checkpoint",
       "GroupGUID": "f1917bd5-0707-460b-879c-35221e0881b7",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G7.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G7.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

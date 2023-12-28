@@ -4,9 +4,6 @@
   "Category": "Mission",
   "LevelGraph": "Config/Level/GroupGraph/F43210002/Group_F43210002_G7.json",
   "AreaAnchorName": "LevelArea_P43210_F43210002_G7",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 2021702,
   "GroupStateList": [
@@ -21,47 +18,76 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 31,
-        "y": -9
-      },
-      {
-        "x": 32,
-        "y": -9
-      },
-      {
-        "x": 33,
-        "y": -9
-      },
-      {
-        "x": 31,
-        "y": -8
-      },
-      {
-        "x": 32,
-        "y": -8
-      },
-      {
-        "x": 33,
-        "y": -8
-      },
-      {
-        "x": 31,
-        "y": -7
-      },
-      {
-        "x": 32,
-        "y": -7
-      },
-      {
-        "x": 33,
-        "y": -7
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      32,
+      -8
     ],
     "LowerUpperBounds": {
-      "y": 2
+      "x": 2,
+      "y": 3
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      21,
+      -21,
+      18,
+      -20,
+      19,
+      -20,
+      22,
+      -20,
+      23,
+      -20,
+      18,
+      -19,
+      20,
+      -19,
+      21,
+      -19,
+      23,
+      -19,
+      18,
+      -17,
+      19,
+      -17,
+      21,
+      -17,
+      22,
+      -17,
+      23,
+      -17,
+      21,
+      -12,
+      17,
+      -11,
+      24,
+      -8,
+      32,
+      -8,
+      33,
+      -8,
+      21,
+      -4,
+      17,
+      1,
+      24,
+      1,
+      21,
+      2,
+      17,
+      4,
+      24,
+      4,
+      19,
+      6,
+      22,
+      6
+    ],
+    "LowerUpperBounds": {
+      "x": 2,
+      "y": 4
     }
   },
   "ConflictWhiteList": [],
@@ -228,7 +254,10 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "IsClientOnly": true,
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300005,
@@ -607,7 +636,11 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "IsClientOnly": true
+      "IsClientOnly": true,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300021,
@@ -803,7 +836,103 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "IsClientOnly": true
+      "IsClientOnly": true,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300029,
+      "PosX": 48.36,
+      "PosY": -2.325,
+      "PosZ": 2.6,
+      "Name": "Prop29",
+      "PropID": 102208,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedUint",
+            "Key": "IsShowInIdle",
+            "Value": 2
+          }
+        ]
+      },
+      "CampID": 4,
+      "MapLayerID": 1,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "IsClientOnly": true,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300030,
+      "PosX": 48.36,
+      "PosY": -2.453,
+      "PosZ": 9.779,
+      "Name": "Prop30",
+      "RotY": 298.4316,
+      "PropID": 102208,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedUint",
+            "Key": "IsShowInIdle",
+            "Value": 2
+          }
+        ]
+      },
+      "CampID": 4,
+      "MapLayerID": 1,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "IsClientOnly": true,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300031,
+      "PosX": 45.648,
+      "PosY": -2.537,
+      "PosZ": 12.282,
+      "Name": "Prop31",
+      "RotY": 298.4316,
+      "PropID": 102208,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "SharedUint",
+            "Key": "IsShowInIdle",
+            "Value": 2
+          }
+        ]
+      },
+      "CampID": 4,
+      "MapLayerID": 1,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "IsClientOnly": true,
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [

@@ -3,13 +3,31 @@
   "GroupName": "MainMission8003242_01",
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P20212_F20212001_G139",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 8003242,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      72,
+      -73
+    ],
+    "LowerUpperBounds": {
+      "x": 78,
+      "y": 79
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      72,
+      -73
+    ],
+    "LowerUpperBounds": {
+      "x": 78,
+      "y": 79
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
     {
@@ -33,7 +51,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     }
   ],
   "PropList": [],

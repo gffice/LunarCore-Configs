@@ -13,28 +13,30 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": 85,
-        "y": -38
-      },
-      {
-        "x": 86,
-        "y": -38
-      },
-      {
-        "x": 85,
-        "y": -37
-      },
-      {
-        "x": 86,
-        "y": -37
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      85,
+      -37
     ],
     "LowerUpperBounds": {
-      "x": 76,
-      "y": 79
+      "x": 77,
+      "y": 78
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      86,
+      -38,
+      83,
+      -37,
+      85,
+      -37,
+      0,
+      0
+    ],
+    "LowerUpperBounds": {
+      "x": 69,
+      "y": 80
     }
   },
   "ConflictWhiteList": [],
@@ -61,7 +63,7 @@
       "PosZ": -74.92,
       "Name": "PuzzleCameraAnchor_Test",
       "RotY": 90.0,
-      "RotX": 59.99982,
+      "RotX": 59.99981,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"

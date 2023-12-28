@@ -228,7 +228,10 @@
       "ID": 46,
       "Name": "MainMission8015151_04",
       "GroupGUID": "06363ab1-93b4-4b7b-9129-f0a561e76b29",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G46.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G46.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

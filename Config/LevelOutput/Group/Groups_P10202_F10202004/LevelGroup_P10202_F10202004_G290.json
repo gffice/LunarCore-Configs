@@ -18,13 +18,31 @@
     ],
     "Operation": "And"
   },
-  "SystemUnlockCondition": {
-    "Operation": "Unknow"
-  },
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -28,
+      -32
+    ],
+    "LowerUpperBounds": {
+      "x": 19,
+      "y": 20
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -28,
+      -32
+    ],
+    "LowerUpperBounds": {
+      "x": 19,
+      "y": 20
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],

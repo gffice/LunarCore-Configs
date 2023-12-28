@@ -4,13 +4,33 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/RogueDLCModule_SwarmBossRoom.json",
   "AreaAnchorName": "LevelArea_P80208_F80208001_G19",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -26,
+      -83
+    ],
+    "LowerUpperBounds": {
+      "x": 78,
+      "y": 79
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -26,
+      -83,
+      -4,
+      -71
+    ],
+    "LowerUpperBounds": {
+      "x": 77,
+      "y": 79
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
     {
@@ -36,7 +56,8 @@
       "BoardShowList": [
         4
       ],
-      "DefaultLookAtMode": "Closed"
+      "DefaultLookAtMode": "Closed",
+      "TagList": []
     }
   ],
   "PropList": [
@@ -48,11 +69,10 @@
       "Name": "Toast",
       "RotY": 105.0,
       "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeRogue/Maze_Rogue_Prop_BossRoomFinishToast.json",
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -70,6 +90,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

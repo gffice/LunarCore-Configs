@@ -4,14 +4,26 @@
   "Category": "Mission",
   "LevelGraph": "Config/Level/GroupGraph/F43210001/Group_F43210001_G8.json",
   "AreaAnchorName": "LevelArea_P43210_F43210001_G8",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 2021702,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
+    "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      153,
+      -46
+    ],
+    "LowerUpperBounds": {
+      "x": 419,
+      "y": 420
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [

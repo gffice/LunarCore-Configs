@@ -27,6 +27,7 @@
   },
   "LoadSide": "Server",
   "OwnerMainMissionID": 4010105,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -41,6 +42,7 @@
       "RotY": 120.6301,
       "NPCID": 3001,
       "LevelGraph": "Config/Level/Maze/Chapter00/Train/Train_PamAction.json",
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [
         1,
@@ -66,7 +68,12 @@
             "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialoguePack_FakePamBase_F10000000_G56_N400001.json"
           }
         ]
-      }
+      },
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

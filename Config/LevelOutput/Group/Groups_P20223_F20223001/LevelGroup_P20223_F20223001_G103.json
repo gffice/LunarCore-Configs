@@ -5,16 +5,23 @@
   "LevelGraph": "Config/Level/GroupGraph/F20223001/Group_F20223001_G103.json",
   "AreaAnchorName": "LevelArea_P20223_F20223001_G103",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8015104,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [],
+  "ConflictSpatialInfo": {
+    "CompactGridList": [],
     "LowerUpperBounds": {}
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -1,
+      -5
+    ],
+    "LowerUpperBounds": {
+      "x": 408,
+      "y": 409
+    }
   },
   "ConflictWhiteList": [],
   "AnchorList": [],

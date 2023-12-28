@@ -4,16 +4,31 @@
   "Category": "Mission",
   "LevelGraph": "Config/Level/GroupGraph/F20212001/Group_F20212001_G138.json",
   "AreaAnchorName": "LevelArea_P20212_F20212001_G138",
-  "LoadCondition": {},
-  "UnloadCondition": {},
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 9930021,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -7,
+      -25
+    ],
+    "LowerUpperBounds": {
+      "x": 77,
+      "y": 78
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -7,
+      -25
+    ],
+    "LowerUpperBounds": {
+      "x": 77,
+      "y": 78
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
     {
@@ -37,7 +52,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     }
   ],
   "PropList": [
@@ -59,6 +75,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

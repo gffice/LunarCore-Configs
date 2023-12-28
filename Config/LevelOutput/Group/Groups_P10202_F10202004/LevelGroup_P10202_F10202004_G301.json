@@ -5,83 +5,40 @@
   "LevelGraph": "Config/Level/GroupGraph/F10202004/Group_F10202004_G301.json",
   "AreaAnchorName": "LevelArea_P10202_F10202004_G301",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8015172,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -20,
-        "y": -21
-      },
-      {
-        "x": -19,
-        "y": -21
-      },
-      {
-        "x": -20,
-        "y": -20
-      },
-      {
-        "x": -19,
-        "y": -20
-      },
-      {
-        "x": -22,
-        "y": -19
-      },
-      {
-        "x": -21,
-        "y": -19
-      },
-      {
-        "x": -20,
-        "y": -19
-      },
-      {
-        "x": -19,
-        "y": -19
-      },
-      {
-        "x": -18,
-        "y": -19
-      },
-      {
-        "x": -22,
-        "y": -18
-      },
-      {
-        "x": -21,
-        "y": -18
-      },
-      {
-        "x": -20,
-        "y": -18
-      },
-      {
-        "x": -19,
-        "y": -18
-      },
-      {
-        "x": -18,
-        "y": -18
-      },
-      {
-        "x": -21,
-        "y": -17
-      },
-      {
-        "x": -20,
-        "y": -17
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -21,
+      -19,
+      -20,
+      -19,
+      -19,
+      -19,
+      -21,
+      -18
     ],
     "LowerUpperBounds": {
-      "x": 20,
-      "y": 23
+      "x": 21,
+      "y": 22
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -21,
+      -19,
+      -20,
+      -19,
+      -19,
+      -19,
+      -21,
+      -18
+    ],
+    "LowerUpperBounds": {
+      "x": 21,
+      "y": 22
     }
   },
   "ConflictWhiteList": [],
@@ -179,7 +136,7 @@
         8
       ],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 100020289,
+      "DefaultIdleFreeStyleMotionID": 100020237,
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}

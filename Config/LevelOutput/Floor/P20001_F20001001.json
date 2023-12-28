@@ -478,6 +478,24 @@
       "Name": "MainMission2000202_",
       "GroupGUID": "4e80e731-f5f6-48d9-abb8-3389c5f5b0ef",
       "GroupPath": "Config/LevelOutput/Group/Groups_P20001_F20001001/LevelGroup_P20001_F20001001_G111.json"
+    },
+    {
+      "ID": 114,
+      "Name": "MainMission8016305_1",
+      "GroupGUID": "7b020c9f-51e6-477c-a075-120c1bdbb578",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20001_F20001001/LevelGroup_P20001_F20001001_G114.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 115,
+      "Name": "MainMission8016305_1",
+      "GroupGUID": "7e31d653-61b8-44b8-a4b6-05135d346671",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20001_F20001001/LevelGroup_P20001_F20001001_G115.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

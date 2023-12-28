@@ -9,44 +9,32 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "SpatialInfo": {
-    "GridList": [
-      {
-        "x": -208,
-        "y": -76
-      },
-      {
-        "x": -207,
-        "y": -76
-      },
-      {
-        "x": -206,
-        "y": -76
-      },
-      {
-        "x": -208,
-        "y": -75
-      },
-      {
-        "x": -207,
-        "y": -75
-      },
-      {
-        "x": -206,
-        "y": -75
-      },
-      {
-        "x": -207,
-        "y": -74
-      },
-      {
-        "x": -206,
-        "y": -74
-      }
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      -207,
+      -76,
+      -207,
+      -75,
+      -206,
+      -75
     ],
     "LowerUpperBounds": {
       "x": 426,
-      "y": 428
+      "y": 427
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      -207,
+      -76,
+      -207,
+      -75,
+      -206,
+      -75
+    ],
+    "LowerUpperBounds": {
+      "x": 426,
+      "y": 427
     }
   },
   "ConflictWhiteList": [],
@@ -72,7 +60,7 @@
       "PosZ": -150.177,
       "Name": "Anchor2",
       "RotY": 71.56327,
-      "RotX": 7.737186,
+      "RotX": 7.737189,
       "RotZ": -1.0E-6,
       "MapLayerID": 1,
       "Usage": "Camera",

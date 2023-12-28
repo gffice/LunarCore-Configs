@@ -4,6 +4,30 @@
   "AreaAnchorName": "LevelArea_P20232_F20232001_G105",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "SharedString",
+        "Key": "Env_AboveWater",
+        "Value": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X302_MainLine_01_Day.enviroProfile.asset"
+      },
+      {
+        "$type": "SharedString",
+        "Key": "Env_UnderWater",
+        "Value": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X302_MainLine_02_Day.enviroProfile.asset"
+      },
+      {
+        "$type": "SharedString",
+        "Key": "Env_Mid1",
+        "Value": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X302_MainLine_01_Day_Varient1.enviroProfile.asset"
+      },
+      {
+        "$type": "SharedString",
+        "Key": "Env_Mid2",
+        "Value": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X302_MainLine_01_Day_Varient2.enviroProfile.asset"
+      }
+    ]
+  },
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -42,10 +66,15 @@
           "PointList": []
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,
@@ -81,10 +110,15 @@
           "PointList": []
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300003,
@@ -120,10 +154,15 @@
           "PointList": []
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300004,
@@ -159,10 +198,15 @@
           "PointList": []
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

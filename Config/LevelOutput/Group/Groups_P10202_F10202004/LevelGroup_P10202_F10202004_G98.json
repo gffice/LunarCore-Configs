@@ -5,13 +5,30 @@
   "LevelGraph": "Config/Level/GroupGraph/F10202004/Group_F10202004_G98.json",
   "AreaAnchorName": "LevelArea_P10202_F10202004_G98",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8003241,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      27,
+      -3
+    ],
+    "LowerUpperBounds": {
+      "x": 22,
+      "y": 23
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      27,
+      -3
+    ],
+    "LowerUpperBounds": {
+      "x": 22,
+      "y": 23
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -22,7 +39,10 @@
       "RotY": 133.89,
       "RotX": 2.0,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 2,
@@ -70,7 +90,7 @@
       "PosY": 2.630778,
       "PosZ": -4.64,
       "Name": "NPC2",
-      "RotY": 6.800002,
+      "RotY": 6.800004,
       "NPCID": 12270,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],

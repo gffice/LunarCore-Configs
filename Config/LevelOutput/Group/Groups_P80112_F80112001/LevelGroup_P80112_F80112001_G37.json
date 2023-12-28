@@ -4,14 +4,32 @@
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P80112_F80112001_G37",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
   "OwnerMainMissionID": 8013106,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
+  "ConflictSpatialInfo": {
+    "CompactGridList": [
+      4,
+      -2
+    ],
+    "LowerUpperBounds": {
+      "x": 8,
+      "y": 9
+    }
+  },
+  "StreamingSpatialInfo": {
+    "CompactGridList": [
+      4,
+      -2
+    ],
+    "LowerUpperBounds": {
+      "x": 8,
+      "y": 9
+    }
+  },
+  "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
