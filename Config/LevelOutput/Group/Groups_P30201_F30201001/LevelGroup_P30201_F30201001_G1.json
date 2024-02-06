@@ -1,9 +1,10 @@
 {
   "GroupGUID": "cd324cc5-b5f3-4350-b25a-b82c6806893d",
   "GroupName": "DefaultGroup",
-  "AreaAnchorName": "LevelArea_P20002_F20002001_G1",
+  "AreaAnchorName": "LevelArea_P30201_F30201001_G1",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -12,7 +13,7 @@
       "PosZ": -109.65,
       "Name": "Anchor1",
       "RotY": 287.9535,
-      "MapLayerID": 1
+      "MapLayerID": 2
     }
   ],
   "MonsterList": [],
@@ -28,8 +29,9 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_AutoDoor_01.json",
       "CampID": 4,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -46,8 +48,9 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_AutoDoor_01.json",
       "CampID": 4,
-      "MapLayerID": 1,
+      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

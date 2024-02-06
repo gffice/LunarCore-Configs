@@ -4,6 +4,7 @@
   "LevelGraph": "Config/Level/Maze/MazeGroup/Maze_Group_OpenTreasure_WhenMonsterDie.json",
   "AreaAnchorName": "LevelArea_P20223_F20223001_G18",
   "SavedValueCondition": {
+    "Conditions": [],
     "Operation": "And"
   },
   "LoadSide": "Server",
@@ -16,8 +17,8 @@
       -26
     ],
     "LowerUpperBounds": {
-      "x": 416,
-      "y": 417
+      "x": 3,
+      "y": 4
     }
   },
   "StreamingSpatialInfo": {
@@ -30,11 +31,11 @@
       0
     ],
     "LowerUpperBounds": {
-      "x": 413,
-      "y": 417
+      "y": 4
     }
   },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -59,9 +60,11 @@
       "BoardShowList": [
         4
       ],
-      "TagList": [
-        "ResistInstantKill"
-      ]
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [

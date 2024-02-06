@@ -14,7 +14,9 @@
   },
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -26,10 +28,20 @@
       "RotY": 338.834,
       "NPCMonsterID": 1003010,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_ToMission.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {
+        "Values": [
+          {
+            "$type": "AIVariableString",
+            "Name": "CustomStringName",
+            "Value": "M301_Raid_FindPlayer"
+          }
+        ]
+      },
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -39,7 +51,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [
@@ -68,10 +85,12 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300001,
@@ -84,10 +103,12 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

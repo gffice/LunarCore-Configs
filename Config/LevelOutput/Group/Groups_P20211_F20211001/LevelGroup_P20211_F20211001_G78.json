@@ -41,6 +41,8 @@
       }
     ]
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -75,11 +77,13 @@
         "Radius": 2.5,
         "DimX": 1.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -97,6 +101,7 @@
       "MapLayerID": 2,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -114,11 +119,13 @@
         "Radius": 2.0,
         "DimX": 1.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -143,7 +150,8 @@
         "Hash": 1632327680
       },
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 100020000
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400002,
@@ -162,16 +170,17 @@
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312110000,
+      "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20211/F20211001_G78/DialogueMain_F20211001_G78_N400002.json",
+        "PackList": [],
         "EnableCondition": {
           "Conditions": [
             {
               "Type": "SubMission",
               "ID": 202030634
             }
-          ],
-          "Operation": "Or"
+          ]
         }
       }
     },
@@ -192,16 +201,17 @@
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312110000,
+      "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20211/F20211001_G78/DialogueMain_F20211001_G78_N400003.json",
+        "PackList": [],
         "EnableCondition": {
           "Conditions": [
             {
               "Type": "SubMission",
               "ID": 202030634
             }
-          ],
-          "Operation": "Or"
+          ]
         }
       }
     },
@@ -222,7 +232,8 @@
         "Hash": 1632327680
       },
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 100020000
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "InitialHiddenNodeList": []
     }
   ]
 }

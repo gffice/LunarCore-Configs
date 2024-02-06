@@ -3,10 +3,12 @@
   "GroupName": "Default",
   "AreaAnchorName": "LevelArea_P80001_F80001003_G1",
   "SaveType": "Reset",
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
-      "Name": "Anchor1"
+      "Name": "Anchor1",
+      "MapLayerID": 1
     }
   ],
   "MonsterList": [],

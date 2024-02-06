@@ -4,7 +4,9 @@
   "AreaAnchorName": "LevelArea_P10101_F10101009_G1",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -59,11 +61,19 @@
       "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "MappingInfoID": 2010101,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": 100
+      "OverrideMapIconType": 100,
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300001,
@@ -99,11 +109,19 @@
       "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "MappingInfoID": 2010101,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": 100
+      "OverrideMapIconType": 100,
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

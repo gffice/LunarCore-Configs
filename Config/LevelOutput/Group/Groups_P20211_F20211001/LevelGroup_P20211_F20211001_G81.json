@@ -28,6 +28,8 @@
     ],
     "Operation": "Or"
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -63,11 +65,13 @@
         "Radius": 1.0,
         "DimX": 8.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -85,11 +89,13 @@
         "Radius": 2.0,
         "DimX": 8.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -108,11 +114,13 @@
         "Radius": 1.0,
         "DimX": 8.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -130,6 +138,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -147,6 +156,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -169,7 +179,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 200110215
+      "DefaultIdleFreeStyleMotionID": 200110215,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400002,
@@ -186,7 +197,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 200110215
+      "DefaultIdleFreeStyleMotionID": 200110215,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400003,
@@ -203,7 +215,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 200110215
+      "DefaultIdleFreeStyleMotionID": 200110215,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400004,
@@ -219,7 +232,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 200110000
+      "DefaultIdleFreeStyleMotionID": 200110000,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400005,
@@ -236,7 +250,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 200110000
+      "DefaultIdleFreeStyleMotionID": 200110000,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400006,
@@ -252,7 +267,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 312110000
+      "DefaultIdleFreeStyleMotionID": 312110000,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400007,
@@ -266,7 +282,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 312110000
+      "DefaultIdleFreeStyleMotionID": 312110000,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400008,
@@ -281,7 +298,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 100020000
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "InitialHiddenNodeList": []
     }
   ]
 }

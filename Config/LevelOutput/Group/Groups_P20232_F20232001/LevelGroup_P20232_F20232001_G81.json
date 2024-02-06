@@ -12,7 +12,7 @@
     {
       "ID": 300001,
       "Name": "PhaseProp",
-      "RotY": 236.5979,
+      "RotY": 326.5979,
       "PropID": 300005,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X303/Maze_Chap02_BAT03Boss_Prop_PhaseController_01.json",
@@ -38,6 +38,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -45,11 +46,18 @@
       "StageObjectCapture": {
         "BlockAlias": "BAT_Boss",
         "PrefabAlias": "Chap02_Eff_BAT_BGWB0"
+      },
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
       }
     },
     {
       "ID": 300002,
       "Name": "FogProp",
+      "RotY": 90.0,
       "PropID": 300005,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X303/Maze_Chap02_BAT03Boss_Prop_FogController_01.json",
@@ -75,6 +83,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -82,6 +91,12 @@
       "StageObjectCapture": {
         "BlockAlias": "BAT_Boss",
         "PrefabAlias": "Chap02_Eff_BAT_X303_VolumeticFog0"
+      },
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
       }
     }
   ],

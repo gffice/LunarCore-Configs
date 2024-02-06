@@ -582,6 +582,7 @@
     },
     {
       "ID": 183,
+      "IsDelete": true,
       "Name": "MainMission9999920_Test",
       "GroupGUID": "f50434b2-4694-4b60-bc61-1afa2b06243a",
       "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G183.json"

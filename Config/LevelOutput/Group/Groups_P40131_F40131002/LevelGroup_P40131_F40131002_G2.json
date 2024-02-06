@@ -27,7 +27,7 @@
       "RotY": 349.5683,
       "NPCMonsterID": 1002030,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Range.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [
           {
             "UseOwnerGroup": true,
@@ -37,6 +37,8 @@
         ],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -47,7 +49,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     },
     {
       "ID": 200002,
@@ -58,10 +65,12 @@
       "RotY": 132.6673,
       "NPCMonsterID": 1002040,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Test.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -71,7 +80,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     },
     {
       "ID": 200009,
@@ -82,10 +96,12 @@
       "RotY": 110.3252,
       "NPCMonsterID": 1002040,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Test.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -95,7 +111,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     },
     {
       "ID": 200003,
@@ -106,10 +127,12 @@
       "RotY": 162.479,
       "NPCMonsterID": 1002040,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Test.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -119,7 +142,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [],

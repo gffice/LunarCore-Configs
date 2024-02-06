@@ -8,7 +8,9 @@
   "IsPendedUnload": true,
   "OwnerMainMissionID": 4140117,
   "ValueSource": {},
-  "ConflictIDList": [],
+  "ConflictIDList": [
+    118
+  ],
   "IsHoyoGroup": true,
   "ConflictSpatialInfo": {
     "CompactGridList": [
@@ -33,6 +35,7 @@
     }
   },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,

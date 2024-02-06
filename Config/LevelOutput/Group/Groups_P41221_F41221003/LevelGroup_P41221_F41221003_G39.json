@@ -4,7 +4,9 @@
   "AreaAnchorName": "LevelArea_P41221_F41221003_G39",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -79,10 +81,16 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300001,
@@ -93,37 +101,20 @@
       "RotY": 150.0,
       "PropID": 102032,
       "IsOverrideInitLevelGraph": true,
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "SharedString",
-            "Key": "MunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig_Raid_ControlDrone.json"
-          },
-          {
-            "$type": "SharedString",
-            "Key": "MunicipalChatName_Help",
-            "Value": "MunicipalChat07"
-          },
-          {
-            "$type": "SharedString",
-            "Key": "MunicipalChatName_Thank",
-            "Value": "MunicipalChat08"
-          },
-          {
-            "$type": "SharedString",
-            "Key": "TargetID",
-            "Value": "39,300001"
-          }
-        ]
-      },
+      "ValueSource": {},
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300003,
@@ -133,13 +124,20 @@
       "Name": "Prop3",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [
@@ -172,7 +170,12 @@
       },
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

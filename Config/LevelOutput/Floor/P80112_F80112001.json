@@ -249,6 +249,15 @@
       "DimensionFilter": {
         "List": []
       }
+    },
+    {
+      "ID": 52,
+      "Name": "MainMission2030301_New Group",
+      "GroupGUID": "40d42f7e-dc31-43c0-9f0f-8bf48ea838d0",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P80112_F80112001/LevelGroup_P80112_F80112001_G52.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

@@ -5,6 +5,7 @@
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "GroupRefreshID": 1,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -74,7 +75,8 @@
         "Radius": 2.5,
         "Offset": {
           "y": 1.0
-        }
+        },
+        "PointList": []
       },
       "State": "CheckPointEnable",
       "MapLayerID": 1,
@@ -84,9 +86,11 @@
           "Offset": {
             "x": -2.0
           },
+          "PointList": [],
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 2,
       "AnchorID": 1,
@@ -108,7 +112,8 @@
         "Radius": 2.5,
         "Offset": {
           "y": 1.0
-        }
+        },
+        "PointList": []
       },
       "State": "CheckPointDisable",
       "MapLayerID": 1,
@@ -120,9 +125,11 @@
             "y": 1.0,
             "z": 3.0
           },
+          "PointList": [],
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 2,
       "AnchorID": 3,
@@ -144,16 +151,19 @@
         "Radius": 2.5,
         "Offset": {
           "y": 1.0
-        }
+        },
+        "PointList": []
       },
       "State": "CheckPointDisable",
       "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,
+          "PointList": [],
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 2,
       "AnchorID": 4,

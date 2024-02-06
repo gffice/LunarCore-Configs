@@ -301,8 +301,9 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy_LowF",
+      "FreeStyleAnimGraphName": "Talk01_StandBy_LowF",
       "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "RuanMadeCake",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -325,8 +326,9 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy_LowF",
+      "FreeStyleAnimGraphName": "Talk01_StandBy_LowF",
       "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "RuanMadeCake",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -349,8 +351,9 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy_LowF",
+      "FreeStyleAnimGraphName": "Talk01_StandBy_LowF",
       "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "RuanMadeCake",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -375,8 +378,9 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy_LowF",
+      "FreeStyleAnimGraphName": "Talk01_StandBy_LowF",
       "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "RuanMadeCake",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -401,8 +405,9 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy_LowF",
+      "FreeStyleAnimGraphName": "Talk01_StandBy_LowF",
       "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "RuanMadeCake",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -425,8 +430,9 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy_LowF",
+      "FreeStyleAnimGraphName": "Talk01_StandBy_LowF",
       "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "RuanMadeCake",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -450,6 +456,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900130000,
       "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "RuanMadeCake",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -473,6 +480,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900130000,
       "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "RuanMadeCake",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -496,6 +504,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900130000,
       "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "RuanMadeCake",
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },

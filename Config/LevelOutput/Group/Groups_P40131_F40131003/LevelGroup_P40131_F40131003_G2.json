@@ -13,7 +13,9 @@
   },
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -24,7 +26,7 @@
       "Name": "Monster7",
       "NPCMonsterID": 1002030,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Range.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [
           {
             "UseOwnerGroup": true,
@@ -35,6 +37,8 @@
         ],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -44,7 +48,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     },
     {
       "ID": 200008,
@@ -55,7 +64,7 @@
       "RotY": 270.0,
       "NPCMonsterID": 1003010,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Test.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [
           {
             "UseGroup": 8,
@@ -65,6 +74,8 @@
         ],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -74,7 +85,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     },
     {
       "ID": 200010,
@@ -84,10 +100,12 @@
       "Name": "Monster10",
       "NPCMonsterID": 1002030,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Range.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -97,7 +115,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     },
     {
       "ID": 200011,
@@ -107,10 +130,12 @@
       "Name": "Monster11",
       "NPCMonsterID": 1002030,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Range.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -120,7 +145,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     },
     {
       "ID": 200013,
@@ -131,7 +161,7 @@
       "RotY": 270.0,
       "NPCMonsterID": 1002040,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Test.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [
           {
             "UseOwnerGroup": true,
@@ -141,6 +171,8 @@
         ],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -150,7 +182,12 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [],

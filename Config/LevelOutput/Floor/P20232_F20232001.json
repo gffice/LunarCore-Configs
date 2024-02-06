@@ -89,6 +89,15 @@
       "GroupPath": "Config/LevelOutput/Group/Groups_P20232_F20232001/LevelGroup_P20232_F20232001_G57.json"
     },
     {
+      "ID": 129,
+      "Name": "Cocoon",
+      "GroupGUID": "509ad23f-81d9-4437-a515-bed996c2654e",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20232_F20232001/LevelGroup_P20232_F20232001_G129.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
       "ID": 44,
       "Name": "Default_ChallengeChest",
       "GroupGUID": "f6dcd81d-77a6-4a73-901d-aba6871aab38",

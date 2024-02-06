@@ -9,6 +9,7 @@
     "Values": []
   },
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -34,9 +35,11 @@
       "BoardShowList": [
         4
       ],
-      "TagList": [
-        "ResistInstantKill"
-      ]
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     },
     {
       "ID": 200002,
@@ -61,9 +64,11 @@
       "BoardShowList": [
         4
       ],
-      "TagList": [
-        "ResistInstantKill"
-      ]
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [

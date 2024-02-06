@@ -11,7 +11,9 @@
       }
     ]
   },
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -44,6 +46,7 @@
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -57,18 +60,23 @@
       "Name": "Prop2",
       "PropID": 110,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
-      "MappingInfoID": 2289,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "ActivityMapConditionIDList": [
         50003
       ],
-      "OverrideMapIconType": 124
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [
@@ -80,8 +88,11 @@
       "Name": "NPC1",
       "RotY": 116.5308,
       "NPCID": 11233,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
+      "MappingInfoID": 2390,
+      "SubMapID": 101010901,
       "MapLayerID": 2,
       "BoardShowList": [
         1,
@@ -95,17 +106,19 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,
       "IsMapContent": true,
-      "MiniMapIconType": 124,
+      "MiniMapIconType": 185,
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101001_G192/DialogueMain_F10101001_G192_N400001.json",
         "PackList": []
       },
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

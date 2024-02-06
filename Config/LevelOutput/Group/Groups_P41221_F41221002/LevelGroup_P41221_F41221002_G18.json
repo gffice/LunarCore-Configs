@@ -4,7 +4,9 @@
   "AreaAnchorName": "LevelArea_P41221_F41221002_G18",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -13,9 +15,7 @@
       "PosZ": 164.97,
       "Name": "Anchor1",
       "RotY": 25.80782,
-      "RotX": 301.0198,
-      "RotZ": 9.184879,
-      "MapLayerID": 2
+      "MapLayerID": 1
     }
   ],
   "MonsterList": [],
@@ -28,7 +28,7 @@
       "Name": "Prop1",
       "RotY": 25.80782,
       "RotX": 301.0198,
-      "RotZ": 9.184879,
+      "RotZ": 9.184877,
       "PropID": 102081,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/MazeTest/ControlDrone/Common/ControlDrone_Target.json",
@@ -49,12 +49,18 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300002,
@@ -88,11 +94,18 @@
         "PointList": []
       },
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300003,
@@ -108,23 +121,50 @@
         "Values": [
           {
             "$type": "SharedString",
-            "Key": "MunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig_Raid_ControlDrone.json"
+            "Key": "MunicipalChatPath_Help",
+            "Value": "Config/Level/MunicipalChatConfig/F41221002/MunicipalChatConfig_F41221002_0001.json"
           },
           {
             "$type": "SharedString",
             "Key": "MunicipalChatName_Help",
-            "Value": "MunicipalChat01"
+            "Value": "MunicipalChatConfig_F41221002_0001"
+          },
+          {
+            "$type": "SharedString",
+            "Key": "MunicipalChatPath_Thank",
+            "Value": "Config/Level/MunicipalChatConfig/F41221002/MunicipalChatConfig_F41221002_0002.json"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "MunicipalChatCharacter_Thank",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400001
+              }
+            ]
           },
           {
             "$type": "SharedString",
             "Key": "MunicipalChatName_Thank",
-            "Value": "MunicipalChat02"
+            "Value": "MunicipalChatConfig_F41221002_0002"
           },
           {
             "$type": "SharedString",
             "Key": "TargetID",
             "Value": "18,300002"
+          },
+          {
+            "$type": "SharedJsonConfigList",
+            "Key": "MunicipalChatCharacter_Help",
+            "Value": [
+              {
+                "$type": "MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400001
+              }
+            ]
           }
         ]
       },
@@ -136,11 +176,18 @@
         "PointList": []
       },
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300004,
@@ -213,6 +260,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -246,6 +294,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -278,7 +327,9 @@
         "PointList": []
       },
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -311,7 +362,9 @@
         "PointList": []
       },
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -339,7 +392,7 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01Loop",
-      "MapLayerID": 2,
+      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -348,7 +401,12 @@
       },
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

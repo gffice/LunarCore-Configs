@@ -23,6 +23,7 @@
     ]
   },
   "OwnerMainMissionID": 2020303,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -83,6 +84,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -106,6 +108,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
         202030329

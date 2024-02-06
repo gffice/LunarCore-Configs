@@ -16,7 +16,7 @@
       "RotY": 90.0,
       "NPCMonsterID": 1002040,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Test.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
@@ -41,7 +41,7 @@
       "RotY": 311.96,
       "NPCMonsterID": 1002030,
       "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_MazeMonster_Adventure/MazeMonster_Soldier_MazeSkill_Patrol_Loop_Range.json",
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },

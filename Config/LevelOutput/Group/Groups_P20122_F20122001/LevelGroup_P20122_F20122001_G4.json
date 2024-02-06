@@ -15,6 +15,7 @@
     ]
   },
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -26,6 +27,7 @@
       "RotY": 315.0,
       "NPCMonsterID": 8003050,
       "AIConfig": {
+        "PathwayList": [],
         "SlaveConfigList": []
       },
       "ValueSource": {},
@@ -39,9 +41,11 @@
       "BoardShowList": [
         4
       ],
-      "TagList": [
-        "ResistInstantKill"
-      ]
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [

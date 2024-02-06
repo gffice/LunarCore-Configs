@@ -21,6 +21,7 @@
   },
   "LoadSide": "Server",
   "OwnerMainMissionID": 4020104,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -57,6 +58,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 119,
       "AnchorID": 1,

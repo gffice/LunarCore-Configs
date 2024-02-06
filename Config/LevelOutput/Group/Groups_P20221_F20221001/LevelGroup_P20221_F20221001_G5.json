@@ -67,6 +67,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 5,
       "AnchorID": 1,
@@ -102,6 +103,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 5,
       "AnchorID": 2,
@@ -137,6 +139,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 5,
       "AnchorID": 3,
@@ -172,6 +175,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 5,
       "AnchorID": 4,

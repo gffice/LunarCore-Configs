@@ -29,6 +29,7 @@
     ]
   },
   "OwnerMainMissionID": 2020303,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -71,6 +72,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -98,6 +100,7 @@
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -129,14 +132,14 @@
       "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20211/F20211001_G72/DialogueMain_F20211001_G72_N400001.json",
+        "PackList": [],
         "EnableCondition": {
           "Conditions": [
             {
               "Type": "SubMission",
               "ID": 202030336
             }
-          ],
-          "Operation": "Or"
+          ]
         }
       }
     },
@@ -164,14 +167,14 @@
       "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20211/F20211001_G72/DialogueMain_F20211001_G72_N400002.json",
+        "PackList": [],
         "EnableCondition": {
           "Conditions": [
             {
               "Type": "SubMission",
               "ID": 202030341
             }
-          ],
-          "Operation": "Or"
+          ]
         }
       }
     },
@@ -204,14 +207,14 @@
       "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20211/F20211001_G72/DialogueMain_F20211001_G72_N400003.json",
+        "PackList": [],
         "EnableCondition": {
           "Conditions": [
             {
               "Type": "SubMission",
               "ID": 202030337
             }
-          ],
-          "Operation": "Or"
+          ]
         }
       }
     },

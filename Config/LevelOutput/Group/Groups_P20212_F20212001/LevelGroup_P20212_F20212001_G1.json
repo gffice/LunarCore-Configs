@@ -5,6 +5,7 @@
   "AreaAnchorName": "LevelArea_P20212_F20212001_G1",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -73,6 +74,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 1,
       "AnchorID": 1,
@@ -106,6 +108,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 1,
       "AnchorID": 2,
@@ -141,6 +144,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 1,
       "AnchorID": 3,
@@ -177,6 +181,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 1,
       "AnchorID": 4,

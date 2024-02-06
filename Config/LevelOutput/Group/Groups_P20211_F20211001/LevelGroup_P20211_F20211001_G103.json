@@ -12,6 +12,8 @@
     "DelayToLevelReload": true
   },
   "LoadSide": "Server",
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [
     {
@@ -35,7 +37,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     }
   ],
   "PropList": [],

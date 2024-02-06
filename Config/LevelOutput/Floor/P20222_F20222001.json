@@ -56,7 +56,10 @@
       "ID": 58,
       "Name": "DistructableDefault",
       "GroupGUID": "846fc147-ddcd-434b-bc60-a274c7158d2f",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20222_F20222001/LevelGroup_P20222_F20222001_G58.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20222_F20222001/LevelGroup_P20222_F20222001_G58.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 59,
@@ -99,6 +102,15 @@
       "Name": "Default_ChallengeChest",
       "GroupGUID": "17c95c4a-8107-4865-8cc5-7b81591e7a5c",
       "GroupPath": "Config/LevelOutput/Group/Groups_P20222_F20222001/LevelGroup_P20222_F20222001_G80.json"
+    },
+    {
+      "ID": 186,
+      "Name": "DefaultCocoon02",
+      "GroupGUID": "38aeef89-e8c4-4233-b8b2-1153521ea12f",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20222_F20222001/LevelGroup_P20222_F20222001_G186.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 183,

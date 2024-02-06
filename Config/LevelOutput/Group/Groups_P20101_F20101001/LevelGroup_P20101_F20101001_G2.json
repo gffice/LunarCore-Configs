@@ -5,7 +5,7 @@
   "AreaAnchorName": "LevelArea_P20101_F20101001_G2",
   "SaveType": "Reset",
   "LoadOnInitial": true,
-  "GroupRefreshID": 1,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -42,10 +42,12 @@
         "Radius": 1.0,
         "DimX": 5.0,
         "DimY": 5.0,
-        "DimZ": 25.0
+        "DimZ": 25.0,
+        "PointList": []
       },
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -65,10 +67,12 @@
         "Radius": 1.0,
         "DimX": 20.0,
         "DimY": 5.0,
-        "DimZ": 25.0
+        "DimZ": 25.0,
+        "PointList": []
       },
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

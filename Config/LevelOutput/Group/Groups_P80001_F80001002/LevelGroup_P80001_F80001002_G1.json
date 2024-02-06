@@ -4,10 +4,12 @@
   "AreaAnchorName": "LevelArea_P80001_F80001002_G1",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
-      "Name": "Anchor1"
+      "Name": "Anchor1",
+      "MapLayerID": 1
     }
   ],
   "MonsterList": [],

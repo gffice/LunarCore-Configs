@@ -293,6 +293,7 @@
   },
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -317,6 +318,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -376,6 +378,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -435,6 +438,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -532,6 +536,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -888,6 +893,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -1044,6 +1050,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -1231,6 +1238,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -1242,21 +1250,9 @@
       "PosZ": -6.8,
       "Name": "Prop14",
       "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Play_Stop_Tenplate.json",
+      "InitLevelGraph": "Config/Level/Common_LG/TriggerCameraLookat.json",
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "SharedString",
-            "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChat/MunicipalChatConfig00005.json"
-          },
-          {
-            "$type": "SharedString",
-            "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChat18"
-          }
-        ]
+        "Values": []
       },
       "Trigger": {
         "Radius": 3.5,
@@ -1274,6 +1270,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -1328,6 +1325,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }

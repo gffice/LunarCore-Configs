@@ -11,6 +11,8 @@
       }
     ]
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -36,11 +38,13 @@
         "Radius": 1.0,
         "DimX": 6.0,
         "DimY": 2.0,
-        "DimZ": 3.0
+        "DimZ": 3.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

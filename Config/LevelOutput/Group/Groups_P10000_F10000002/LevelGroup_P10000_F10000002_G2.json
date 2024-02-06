@@ -13,6 +13,8 @@
       }
     ]
   },
+  "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -20,7 +22,7 @@
       "ID": 300001,
       "PosX": 0.11,
       "PosY": 2.0,
-      "PosZ": 32.137,
+      "PosZ": 32.0,
       "Name": "Prop1",
       "PropID": 108,
       "IsOverrideInitLevelGraph": true,
@@ -43,14 +45,23 @@
         "Radius": 2.0,
         "DimX": 1.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

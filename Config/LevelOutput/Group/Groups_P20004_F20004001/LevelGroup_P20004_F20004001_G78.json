@@ -4,6 +4,7 @@
   "AreaAnchorName": "LevelArea_P20004_F20004001_G78",
   "SaveType": "Reset",
   "SavedValueCondition": {
+    "Conditions": [],
     "Operation": "And"
   },
   "LoadOnInitial": true,
@@ -19,7 +20,7 @@
     "CompactGridList": [
       -13,
       -62,
-      -8,
+      -9,
       -57,
       -12,
       -46,
@@ -62,6 +63,7 @@
     }
   },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -98,6 +100,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -137,15 +140,16 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
     },
     {
       "ID": 300003,
-      "PosX": -16.0,
-      "PosY": 180.589,
-      "PosZ": -112.106,
+      "PosX": -16.04,
+      "PosY": 180.05,
+      "PosZ": -112.07,
       "Name": "Prop3",
       "RotY": 219.6,
       "Scale": {
@@ -158,7 +162,7 @@
       "Trigger": {
         "Shape": "Box",
         "Radius": 2.0,
-        "DimX": 11.0,
+        "DimX": 10.0,
         "DimY": 6.0,
         "DimZ": 5.0,
         "Offset": {
@@ -183,6 +187,8 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -220,6 +226,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -257,6 +264,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -297,6 +305,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -334,6 +343,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -375,6 +385,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -421,6 +432,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -463,6 +475,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -505,6 +518,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -547,6 +561,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -589,6 +604,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -635,6 +651,7 @@
       "TriggerValidGuest": {
         "TargetList": []
       },
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -676,6 +693,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -726,6 +744,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -767,6 +786,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -805,6 +825,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -843,6 +864,7 @@
         "Hash": 278713937
       },
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }

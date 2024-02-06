@@ -4,13 +4,15 @@
   "AreaAnchorName": "LevelArea_P81002_F81002001_G1",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
       "PosX": 196.2102,
       "PosY": 2.826155,
       "PosZ": -233.6144,
-      "Name": "PlayerStart"
+      "Name": "PlayerStart",
+      "MapLayerID": 1
     }
   ],
   "MonsterList": [],

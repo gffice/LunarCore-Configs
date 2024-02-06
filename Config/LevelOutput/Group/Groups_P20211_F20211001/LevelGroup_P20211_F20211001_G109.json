@@ -11,6 +11,8 @@
       }
     ]
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -36,11 +38,13 @@
         "Radius": 2.0,
         "DimX": 1.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -62,7 +66,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 312110000
+      "DefaultIdleFreeStyleMotionID": 312110000,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400003,
@@ -81,7 +86,8 @@
         "Hash": 1632327680
       },
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 100020236
+      "DefaultIdleFreeStyleMotionID": 100020236,
+      "InitialHiddenNodeList": []
     }
   ]
 }

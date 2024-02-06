@@ -15,6 +15,7 @@
     ]
   },
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -39,9 +40,11 @@
       "BoardShowList": [
         4
       ],
-      "TagList": [
-        "ResistInstantKill"
-      ]
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [

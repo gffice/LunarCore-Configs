@@ -69,6 +69,15 @@
       "DimensionFilter": {
         "List": []
       }
+    },
+    {
+      "ID": 9,
+      "Name": "Contents",
+      "GroupGUID": "97e8fb80-1f07-4060-883d-5e8a999a5d65",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G9.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

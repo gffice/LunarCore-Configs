@@ -14,7 +14,9 @@
     ],
     "Operation": "Or"
   },
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -39,17 +41,19 @@
   "PropList": [
     {
       "ID": 300001,
-      "PosX": -75.546,
+      "PosX": -76.743,
       "PosY": -0.789958,
-      "PosZ": -59.944,
+      "PosZ": -58.533,
       "Name": "Prop1",
-      "RotY": 315.0,
+      "RotY": 127.72,
       "PropID": 110,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X2/Chapter02_X2_FantasticStory_OpenUI.json",
+      "ValueSource": {},
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 170,
       "AnchorID": 1,
@@ -57,7 +61,13 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": 133
+      "OverrideMapIconType": 133,
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

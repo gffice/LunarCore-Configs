@@ -3,6 +3,8 @@
   "GroupName": "MainMission_102020122",
   "AreaAnchorName": "LevelArea_P20211_F20211001_G26",
   "SaveType": "Reset",
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -25,6 +27,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

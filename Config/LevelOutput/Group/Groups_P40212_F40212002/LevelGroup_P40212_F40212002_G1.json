@@ -1,9 +1,10 @@
 {
   "GroupGUID": "f9c706de-503f-4a2f-8a8b-804e6a4d1fab",
   "GroupName": "DefaultGroup",
-  "AreaAnchorName": "LevelArea_P40212_F40212001_G1",
+  "AreaAnchorName": "LevelArea_P40212_F40212002_G1",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,

@@ -20,6 +20,8 @@
     ],
     "Operation": "Or"
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -45,6 +47,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -63,11 +66,13 @@
         "Radius": 1.0,
         "DimX": 5.0,
         "DimY": 1.0,
-        "DimZ": 5.0
+        "DimZ": 5.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -89,7 +94,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 312110000
+      "DefaultIdleFreeStyleMotionID": 312110000,
+      "InitialHiddenNodeList": []
     },
     {
       "ID": 400002,
@@ -108,7 +114,8 @@
         "Hash": 31012412
       },
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 100010221
+      "DefaultIdleFreeStyleMotionID": 100010221,
+      "InitialHiddenNodeList": []
     }
   ]
 }

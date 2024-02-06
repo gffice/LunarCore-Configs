@@ -12,6 +12,7 @@
   },
   "LoadSide": "Server",
   "GroupRefreshID": 1001,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -36,7 +37,8 @@
       "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200007,
@@ -66,7 +68,8 @@
       "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200004,
@@ -96,7 +99,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200002,
@@ -120,7 +124,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200001,
@@ -143,7 +148,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200005,
@@ -167,7 +173,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200009,
@@ -196,7 +203,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200003,
@@ -226,7 +234,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200008,
@@ -250,7 +259,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200010,
@@ -264,6 +274,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -273,15 +284,19 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 200011,
-      "PosX": -31.71,
-      "PosY": 3.929911,
-      "PosZ": -66.71,
+      "PosX": -37.49187,
+      "PosY": 3.929909,
+      "PosZ": -81.52948,
       "Name": "Monster11",
-      "RotY": 180.0,
+      "RotY": 120.0,
       "NPCMonsterID": 2011020,
       "AIConfig": {
         "PathwayList": [
@@ -289,11 +304,12 @@
             "UseOwnerGroup": true,
             "UseGroup": 55,
             "UseID": 7,
-            "StartAt": 15
+            "StartAt": 16
           }
         ],
         "SlaveConfigList": []
       },
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -303,7 +319,11 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 200012,
@@ -316,6 +336,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
@@ -325,7 +346,11 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 200013,
@@ -349,7 +374,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     }
   ],
   "PropList": [],

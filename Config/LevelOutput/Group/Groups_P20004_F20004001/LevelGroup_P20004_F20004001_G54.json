@@ -37,6 +37,7 @@
     }
   },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -50,6 +51,7 @@
       "RotY": 297.8,
       "NPCID": 3046,
       "ValueSource": {},
+      "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MapLayerID": 3,
@@ -75,6 +77,8 @@
           }
         ]
       },
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },

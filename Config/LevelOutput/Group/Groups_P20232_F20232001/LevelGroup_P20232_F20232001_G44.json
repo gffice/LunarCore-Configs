@@ -7,6 +7,7 @@
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -33,9 +34,11 @@
       "BoardShowList": [
         4
       ],
-      "TagList": [
-        "ResistInstantKill"
-      ]
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     },
     {
       "ID": 200002,
@@ -45,7 +48,10 @@
       "Name": "Monster2",
       "RotY": 310.0,
       "NPCMonsterID": 2022060,
-      "AIConfig": {},
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
       "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
@@ -58,9 +64,11 @@
       "BoardShowList": [
         4
       ],
-      "TagList": [
-        "ResistInstantKill"
-      ]
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [

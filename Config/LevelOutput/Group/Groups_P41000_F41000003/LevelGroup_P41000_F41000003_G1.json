@@ -4,6 +4,7 @@
   "AreaAnchorName": "LevelArea_P41000_F41000003_G1",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,

@@ -2,7 +2,7 @@
   "GroupGUID": "114b36a8-5937-41df-bae8-2d0e594b5b6c",
   "GroupName": "DefaultGroup",
   "ConfigPrefabPath": "Level/Maze/Chapter00/Chap00_MAZ_N202_LevelArea.prefab",
-  "AreaAnchorName": "LevelArea_P20002_F20002001_G1",
+  "AreaAnchorName": "LevelArea_P40002_F40002001_G1",
   "SaveType": "Reset",
   "LoadOnInitial": true,
   "ConflictIDList": [],

@@ -150,7 +150,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy",
+      "FreeStyleAnimGraphName": "Talk01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -178,7 +178,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900140000,
-      "AnimGroupName": "Talk01_StandBy",
+      "FreeStyleAnimGraphName": "Talk01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -207,7 +207,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy",
+      "FreeStyleAnimGraphName": "Talk01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -236,7 +236,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900140000,
-      "AnimGroupName": "Talk01_StandBy",
+      "FreeStyleAnimGraphName": "Talk01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -265,7 +265,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy",
+      "FreeStyleAnimGraphName": "Talk01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -346,7 +346,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy",
+      "FreeStyleAnimGraphName": "Talk01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -400,7 +400,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020229,
-      "AnimGroupName": "Sad01_StandBy",
+      "FreeStyleAnimGraphName": "Sad01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -427,7 +427,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020229,
-      "AnimGroupName": "Sad01_StandBy",
+      "FreeStyleAnimGraphName": "Sad01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -454,7 +454,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020229,
-      "AnimGroupName": "Sad01_StandBy",
+      "FreeStyleAnimGraphName": "Sad01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -481,7 +481,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020229,
-      "AnimGroupName": "Sad01_StandBy",
+      "FreeStyleAnimGraphName": "Sad01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -507,7 +507,7 @@
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900020000,
-      "AnimGroupName": "Repair01_StandBy",
+      "FreeStyleAnimGraphName": "Repair01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -534,7 +534,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020247,
-      "AnimGroupName": "Repair01_StandBy",
+      "FreeStyleAnimGraphName": "Repair01_StandBy",
       "IsMapContent": true,
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
@@ -562,7 +562,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020247,
-      "AnimGroupName": "Repair01_StandBy",
+      "FreeStyleAnimGraphName": "Repair01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -589,7 +589,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020000,
-      "AnimGroupName": "Repair01_StandBy",
+      "FreeStyleAnimGraphName": "Repair01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -615,7 +615,7 @@
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900020000,
-      "AnimGroupName": "Great01_StandBy",
+      "FreeStyleAnimGraphName": "Great01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -694,7 +694,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020248,
-      "AnimGroupName": "Great01_StandBy",
+      "FreeStyleAnimGraphName": "Great01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -749,7 +749,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900130000,
-      "AnimGroupName": "Talk01_StandBy",
+      "FreeStyleAnimGraphName": "Talk01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -776,7 +776,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020247,
-      "AnimGroupName": "Repair01_StandBy",
+      "FreeStyleAnimGraphName": "Repair01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
@@ -881,7 +881,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "FreeStyleGraph",
       "DefaultIdleFreeStyleMotionID": 900020000,
-      "AnimGroupName": "Great01_StandBy",
+      "FreeStyleAnimGraphName": "Great01_StandBy",
       "InitialHiddenNodeList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},

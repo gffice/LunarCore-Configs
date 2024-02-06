@@ -21,7 +21,10 @@
       "Name": "Anchor1",
       "RotY": 2.614576,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 2,
@@ -63,6 +66,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -78,8 +82,10 @@
       "Name": "NPC1",
       "RotY": 180.0,
       "NPCID": 11232,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
+      "MappingInfoID": 2289,
       "MapLayerID": 1,
       "BoardShowList": [
         4,
@@ -105,7 +111,12 @@
             "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101009_G3/DialoguePack_ShowUI_F10101009_G3_N400001.json"
           }
         ]
-      }
+      },
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400002,

@@ -143,10 +143,22 @@
       "GroupPath": "Config/LevelOutput/Group/Groups_P20231_F20231001/LevelGroup_P20231_F20231001_G55.json"
     },
     {
+      "ID": 158,
+      "Name": "Cocoon",
+      "GroupGUID": "7e7d1408-5dca-4fed-8ab0-e4e98ba1dff0",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20231_F20231001/LevelGroup_P20231_F20231001_G158.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
       "ID": 48,
       "Name": "DistructableDefault",
       "GroupGUID": "0b69a524-1060-4f9a-a445-fa34ed37d68e",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P20231_F20231001/LevelGroup_P20231_F20231001_G48.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20231_F20231001/LevelGroup_P20231_F20231001_G48.json",
+      "DimensionFilter": {
+        "List": []
+      }
     },
     {
       "ID": 49,

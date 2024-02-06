@@ -116,8 +116,7 @@
       "DefaultLookAtMode": "Closed",
       "MapLayerID": 1,
       "BoardShowList": [
-        1,
-        64
+        1
       ],
       "OverrideNPCTitle": {
         "Hash": -1987642313

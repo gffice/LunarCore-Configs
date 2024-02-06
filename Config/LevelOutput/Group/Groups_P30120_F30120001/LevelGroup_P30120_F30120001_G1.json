@@ -5,6 +5,7 @@
   "AreaAnchorName": "LevelArea_P30120_F30120001_G1",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -30,6 +31,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

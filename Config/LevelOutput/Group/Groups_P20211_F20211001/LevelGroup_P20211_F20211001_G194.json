@@ -15,6 +15,7 @@
     "Operation": "Or"
   },
   "LoadSide": "Server",
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],

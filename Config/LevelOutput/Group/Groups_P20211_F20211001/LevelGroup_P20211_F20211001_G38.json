@@ -11,6 +11,8 @@
       }
     ]
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -42,15 +44,18 @@
         "Radius": 2.96,
         "DimX": 7.08,
         "DimY": 2.44,
-        "DimZ": 3.55
+        "DimZ": 3.55,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_OnEnter": {
-          "Radius": 20.0
+          "Radius": 20.0,
+          "PointList": []
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 2239,
       "DialogueGroups": [],

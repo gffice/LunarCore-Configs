@@ -20,6 +20,8 @@
       }
     ]
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -36,11 +38,13 @@
         "Radius": 1.0,
         "DimX": 5.0,
         "DimY": 1.0,
-        "DimZ": 5.0
+        "DimZ": 5.0,
+        "PointList": []
       },
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -61,7 +65,8 @@
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 200040000
+      "DefaultIdleFreeStyleMotionID": 200040000,
+      "InitialHiddenNodeList": []
     }
   ]
 }

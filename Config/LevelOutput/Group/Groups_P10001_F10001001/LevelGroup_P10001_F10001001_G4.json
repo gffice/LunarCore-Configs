@@ -4,7 +4,9 @@
   "AreaAnchorName": "LevelArea_P10001_F10001001_G4",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -35,6 +37,7 @@
       "Name": "NPC1",
       "RotY": 5.159172,
       "NPCID": 1009,
+      "ValueSource": {},
       "DialogueGroups": [
         100030114,
         100050103,
@@ -106,11 +109,17 @@
           {
             "Name": "Common",
             "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G4/DialoguePack_Common_F10001001_G4_N400001.json"
+          },
+          {
+            "Name": "2000202",
+            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G4/DialoguePack_2000202_F10001001_G4_N400001.json"
           }
         ]
       },
       "ConnectWithSubMissionIDList": [
         200010801,
+        200010823,
+        200010824,
         200030101,
         200030108,
         200030405,
@@ -127,12 +136,16 @@
         202030348,
         202030350,
         202030362,
-        405002802
+        405002802,
+        200020113
       ],
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

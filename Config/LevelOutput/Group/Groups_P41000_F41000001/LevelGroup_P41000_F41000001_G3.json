@@ -34,6 +34,7 @@
       }
     ]
   },
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
@@ -41,7 +42,8 @@
       "PosY": 12.01,
       "PosZ": -0.74,
       "Name": "Checkpoint1",
-      "RotY": 270.0
+      "RotY": 270.0,
+      "MapLayerID": 1
     }
   ],
   "MonsterList": [],
@@ -61,7 +63,9 @@
       "PropID": 105,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -77,7 +81,9 @@
       "PropID": 105,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -93,7 +99,9 @@
       "PropID": 105,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -108,7 +116,9 @@
       "PropID": 101004,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -136,7 +146,9 @@
           }
         ]
       },
+      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

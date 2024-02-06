@@ -3,6 +3,8 @@
   "GroupName": "Containertutorial",
   "AreaAnchorName": "LevelArea_P20211_F20211001_G7",
   "LoadSide": "Server",
+  "ValueSource": {},
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,

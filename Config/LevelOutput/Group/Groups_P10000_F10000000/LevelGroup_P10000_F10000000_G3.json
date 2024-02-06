@@ -56,7 +56,9 @@
   },
   "LoadSide": "Server",
   "GroupRefreshID": 1,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -138,6 +140,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "DialogueGroups": [
         101000204,
         405000103
@@ -168,9 +171,17 @@
           {
             "Name": "PamBase",
             "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G3/Pack/Pack_F10000000_G3_N400004.json"
+          },
+          {
+            "Name": "other",
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G3/DialoguePack_other_F10000000_G3_N400001.json"
           }
         ]
       },
+      "ConnectWithSubMissionIDList": [
+        4040325
+      ],
+      "TagContainer": {},
       "SpawnConfig": {
         "OverrideSpawn": true,
         "EntitySpawnConfig": {}

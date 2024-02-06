@@ -35,7 +35,9 @@
     ]
   },
   "OwnerMainMissionID": 2021601,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -46,7 +48,10 @@
       "RotY": 266.7974,
       "RotX": 4.595977,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 2,
@@ -56,7 +61,10 @@
       "Name": "Anchor2",
       "RotY": 315.9272,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 3,
@@ -84,7 +92,10 @@
       "Name": "Anchor5",
       "RotX": 5.343626,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],
@@ -107,6 +118,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -130,6 +142,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -145,6 +158,7 @@
       "Name": "NPC1",
       "RotY": 214.0317,
       "NPCID": 12248,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
@@ -152,7 +166,12 @@
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020231,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400002,
@@ -240,23 +259,25 @@
       "Name": "NPC6",
       "RotY": 88.2848,
       "NPCID": 12248,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
       "MapLayerID": 1,
       "BoardShowList": [
-        1,
-        64
+        1
       ],
       "OverrideNPCName": {
         "Hash": -2109077762
       },
-      "OverrideNPCTitle": {
-        "Hash": -1987642313
-      },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020231,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400007,
@@ -266,23 +287,25 @@
       "Name": "NPC7",
       "RotY": 128.941,
       "NPCID": 12177,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
       "MapLayerID": 1,
       "BoardShowList": [
-        1,
-        64
+        1
       ],
       "OverrideNPCName": {
         "Hash": -1064211851
       },
-      "OverrideNPCTitle": {
-        "Hash": -1987642313
-      },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400008,
@@ -292,20 +315,22 @@
       "Name": "NPC8",
       "RotY": 72.06502,
       "NPCID": 12170,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
       "MapLayerID": 1,
       "BoardShowList": [
-        1,
-        64
+        1
       ],
-      "OverrideNPCTitle": {
-        "Hash": -1987642313
-      },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400009,
@@ -315,23 +340,25 @@
       "Name": "NPC9",
       "RotY": 42.58784,
       "NPCID": 12271,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
       "MapLayerID": 1,
       "BoardShowList": [
-        1,
-        64
+        1
       ],
       "OverrideNPCName": {
         "Hash": -834397544
       },
-      "OverrideNPCTitle": {
-        "Hash": -1987642313
-      },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400010,
@@ -357,13 +384,19 @@
       "Name": "NPC11",
       "RotY": 212.1773,
       "NPCID": 12249,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400012,
@@ -373,13 +406,19 @@
       "Name": "NPC12",
       "RotY": 23.47717,
       "NPCID": 1992,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380020000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

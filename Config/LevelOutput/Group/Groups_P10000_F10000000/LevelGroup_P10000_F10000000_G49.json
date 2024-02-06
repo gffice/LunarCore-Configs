@@ -5,14 +5,13 @@
   "LoadSide": "Server",
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
-      "PosX": 0.81,
-      "PosY": 1.0E-6,
-      "PosZ": -16.11,
+      "PosX": 0.917,
+      "PosZ": -15.685,
       "Name": "Anchor1",
-      "RotY": 359.0257,
       "MapLayerID": 1
     },
     {
@@ -103,6 +102,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -135,6 +135,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -166,6 +167,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -197,6 +199,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -228,6 +231,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -259,6 +263,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -289,6 +294,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -319,6 +325,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -349,6 +356,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -378,6 +386,8 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -407,6 +417,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -437,6 +448,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -468,6 +480,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -499,6 +512,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -530,6 +544,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -561,6 +576,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -592,6 +608,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -623,6 +640,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -654,6 +672,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -685,6 +704,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -716,6 +736,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -747,6 +768,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -779,6 +801,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -811,6 +834,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -843,6 +867,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -870,6 +895,7 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -896,6 +922,36 @@
         "PackList": []
       },
       "OverrideBehaviorType": "TrainVisitor",
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
+    },
+    {
+      "ID": 400028,
+      "PosZ": 20.0,
+      "Name": "NPC28",
+      "NPCID": 1312,
+      "LevelGraph": "Config/Level/Mission/TrainVisitor/TrainVisitor_Bubble.json",
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 1,
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 313120000,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/TrainVisitor/Dialogue_F10000000_G49.json",
+        "PackList": []
+      },
+      "OverrideBehaviorType": "TrainVisitor",
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },

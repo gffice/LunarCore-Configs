@@ -4,21 +4,6 @@
   "Category": "Mission",
   "AreaAnchorName": "LevelArea_P10101_F10101001_G183",
   "SaveType": "Reset",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "ID": 9999920
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Finish",
-        "ID": 9999920
-      }
-    ]
-  },
   "OwnerMainMissionID": 9999920,
   "ConflictIDList": [],
   "AnchorList": [

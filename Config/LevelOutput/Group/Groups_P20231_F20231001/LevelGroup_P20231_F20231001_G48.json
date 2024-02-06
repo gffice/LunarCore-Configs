@@ -228,13 +228,14 @@
     },
     {
       "ID": 300010,
-      "PosX": 10.9,
+      "PosX": 19.35585,
       "PosY": 42.42503,
-      "PosZ": -136.07,
+      "PosZ": -128.4088,
       "Name": "Prop10",
       "RotY": 180.0,
       "PropID": 102008,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CampID": 4,
       "EventID": 20231401,
       "MapLayerID": 2,
@@ -243,7 +244,11 @@
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     },
     {
       "ID": 300011,

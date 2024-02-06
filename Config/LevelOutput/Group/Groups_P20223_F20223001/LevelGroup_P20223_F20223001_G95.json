@@ -446,10 +446,7 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
-      "SpawnConfig": {
-        "EntitySpawnConfig": {}
-      }
+      "TriggerValidGuest": {}
     },
     {
       "ID": 300009,

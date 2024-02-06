@@ -177,6 +177,12 @@
       "Name": "Exit2",
       "GroupGUID": "15f2df48-5473-4f43-9189-1b5d4dcdfc8a",
       "GroupPath": "Config/LevelOutput/Group/Groups_P40002_F40002103/LevelGroup_P40002_F40002103_G29.json"
+    },
+    {
+      "ID": 34,
+      "Name": "Sound",
+      "GroupGUID": "948c9a25-b065-42de-9289-648cc86cdf69",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P40002_F40002103/LevelGroup_P40002_F40002103_G34.json"
     }
   ]
 }

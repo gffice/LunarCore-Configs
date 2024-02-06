@@ -20,6 +20,7 @@
     ]
   },
   "OwnerMainMissionID": 1020201,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -32,7 +33,10 @@
       "RotX": 15.94001,
       "RotZ": 1.0E-6,
       "MapLayerID": 2,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],
@@ -57,6 +61,7 @@
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -80,6 +85,7 @@
       "CampID": 4,
       "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -155,7 +161,8 @@
       "DefaultIdleFreeStyleMotionID": 200110215,
       "InitialHiddenNodeList": [],
       "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P20211/F20211001_G27/DialogueMain_F20211001_G27_N400003.json"
+        "LevelGraph": "Config/Level/NPCDialogue/P20211/F20211001_G27/DialogueMain_F20211001_G27_N400003.json",
+        "PackList": []
       }
     },
     {

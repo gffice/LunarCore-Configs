@@ -21,7 +21,9 @@
     ]
   },
   "OwnerMainMissionID": 8003201,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -41,9 +43,12 @@
       "Name": "Anchor2",
       "RotY": 263.0,
       "RotX": 15.2,
-      "RotZ": 1.0E-6,
+      "RotZ": 2.0E-6,
       "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],
@@ -56,6 +61,7 @@
       "Name": "Prop1",
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 5.0,
@@ -67,10 +73,16 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": [
@@ -82,6 +94,7 @@
       "Name": "NPC1",
       "RotY": 180.0,
       "NPCID": 1209,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MapLayerID": 1,
@@ -95,10 +108,12 @@
         "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202001_G105/DialogueMain_F10202001_G105_N400001.json",
         "PackList": []
       },
+      "TagContainer": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

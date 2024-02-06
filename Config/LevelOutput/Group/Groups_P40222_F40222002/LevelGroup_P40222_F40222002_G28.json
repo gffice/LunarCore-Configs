@@ -2,7 +2,7 @@
   "GroupGUID": "4c5c822b-89a1-46e9-a034-72735ad6f07e",
   "GroupName": "DefaultGroup",
   "ConfigPrefabPath": "Level/Maze/Chapter02/Chap02_MAZ_X202_LevelArea.prefab",
-  "AreaAnchorName": "LevelArea_P20222_F20222001_G28",
+  "AreaAnchorName": "LevelArea_P40222_F40222002_G28",
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ConflictIDList": [],
@@ -111,6 +111,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 3,
       "AnchorID": 2,
@@ -149,6 +150,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 3,
       "AnchorID": 3,
@@ -187,6 +189,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 3,
       "AnchorID": 4,
@@ -229,6 +232,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 3,
       "AnchorID": 5,

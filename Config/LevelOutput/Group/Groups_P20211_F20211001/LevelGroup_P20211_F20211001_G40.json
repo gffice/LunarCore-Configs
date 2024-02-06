@@ -15,6 +15,7 @@
     "Operation": "Or"
   },
   "LoadSide": "Server",
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -51,7 +52,8 @@
       "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     }
   ],
   "PropList": [
@@ -89,6 +91,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 40,
       "AnchorID": 1,

@@ -4,13 +4,15 @@
   "AreaAnchorName": "LevelArea_P81132_F81132001_G1",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ConflictIDList": [],
   "AnchorList": [
     {
       "ID": 1,
       "PosX": 35.36114,
       "PosY": 21.01484,
       "PosZ": 83.33411,
-      "Name": "PlayerStart"
+      "Name": "PlayerStart",
+      "MapLayerID": 1
     }
   ],
   "MonsterList": [],
@@ -76,12 +78,14 @@
         "Radius": 28.0,
         "DimX": 1.0,
         "DimY": 1.0,
-        "DimZ": 1.0
+        "DimZ": 1.0,
+        "PointList": []
       },
       "CampID": 4,
       "State": "BridgeState2",
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [
         180,
         270,

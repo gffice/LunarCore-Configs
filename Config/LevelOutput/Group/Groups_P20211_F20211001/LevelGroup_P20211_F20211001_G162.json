@@ -22,6 +22,7 @@
     ]
   },
   "OwnerMainMissionID": 4015101,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -82,6 +83,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -105,6 +107,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

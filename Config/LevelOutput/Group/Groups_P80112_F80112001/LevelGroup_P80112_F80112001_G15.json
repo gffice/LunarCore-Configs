@@ -28,8 +28,12 @@
       "RotY": 135.6001,
       "RotX": 51.24666,
       "RotZ": -1.9E-5,
+      "MapLayerID": 1,
       "Usage": "Camera",
-      "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab"
+      "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 2,
@@ -39,8 +43,12 @@
       "Name": "Anchor2",
       "RotY": 135.6001,
       "RotX": 47.72104,
-      "RotZ": -3.0E-6,
-      "Usage": "Camera"
+      "RotZ": 3.0E-6,
+      "MapLayerID": 1,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],
@@ -78,6 +86,7 @@
       "CampID": 4,
       "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 2220,
       "DialogueGroups": [],
@@ -88,6 +97,12 @@
       "StageObjectCapture": {
         "BlockAlias": "RogueLobby_01",
         "PrefabAlias": "RogueEntry"
+      },
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
       }
     }
   ],

@@ -10,19 +10,29 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
+    "CompactGridList": [
+      0,
+      50
+    ],
+    "LowerUpperBounds": {
+      "x": -15,
+      "y": -14
+    }
   },
   "StreamingSpatialInfo": {
     "CompactGridList": [
       -1,
-      0
+      0,
+      0,
+      50
     ],
     "LowerUpperBounds": {
+      "x": -15,
       "y": 1
     }
   },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -46,10 +56,33 @@
       "HideInStory": true,
       "PerformanceHideFlags": -8,
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
     }
   ],
-  "NPCList": []
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosY": -29.74,
+      "PosZ": 100.5,
+      "Name": "NPC1",
+      "NPCID": 1009,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MapLayerID": 1,
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 310090000,
+      "InitialHiddenNodeList": [],
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
+    }
+  ]
 }
